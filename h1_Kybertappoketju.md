@@ -40,6 +40,9 @@ Latasin ensiksi ISO-tiedoston sijaan valmiiksi konfiguroidun virtuaalikonekuvan 
 
 Kuvassa olin jo purrut paketin, ja seuraavaksi avasin Kali-tiedoston, se aukesi automaattisesti konfiguraatiovaiheeseen VirtualBoxissa. Säädin muistia 4GB asti kuten vinkeissä neuvottiin.
 
+<img width="380" height="256" alt="image" src="https://github.com/user-attachments/assets/8d0128cd-2bdf-45ed-8c4b-5be536b47b67" />
+
+
 
 ## b)
 
