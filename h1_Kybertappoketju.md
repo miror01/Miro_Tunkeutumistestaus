@@ -73,3 +73,6 @@ Kuvassa näkyy, että kaikki 1000 skannattua porttia ovat kiinni. Portteja skann
 ## d)
 
 Seuraavaksi yhdistin hetkeksi koneen takaisin verkkoon ja asensin 2 demonia. Ajoin terminaalissa komennot: **sudo apt update**, sekä **sudo apt install -y apache2 openssh-server**. Päädyin apache2:een ja ssh-palvelimeen, yhdistin molemmat demonit samaan komentoon.
+
+<img width="307" height="194" alt="image" src="https://github.com/user-attachments/assets/601a09c3-1192-47e8-991b-28b29a2d07a3" />
+
