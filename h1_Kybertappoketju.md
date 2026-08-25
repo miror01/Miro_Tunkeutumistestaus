@@ -76,5 +76,8 @@ Seuraavaksi yhdistin hetkeksi koneen takaisin verkkoon ja asensin 2 demonia. Ajo
 
 <img width="307" height="194" alt="image" src="https://github.com/user-attachments/assets/601a09c3-1192-47e8-991b-28b29a2d07a3" />
 
-Palvelut päälle komennolla **sudo systemctl start apache2** ja **ssh**, ja uudelleenskannaus
+Palvelut päälle komennolla **sudo systemctl start apache2** ja **ssh**, ja uudelleenskannaus:
+
+<img width="357" height="179" alt="image" src="https://github.com/user-attachments/assets/6515e236-9d21-4aef-b064-52bcfd5472fd" />
+
 
