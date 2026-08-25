@@ -35,7 +35,10 @@ KKO 2003:36 on Korkeimman oikeuden ennakkoratkaisu tapauksesta jossa oltiin tunk
 
 Latasin ensiksi ISO-tiedoston sijaan valmiiksi konfiguroidun virtuaalikonekuvan Kalista, säästyäkseni pitkältä asennusvaiheelta. Löysin virtuaalikonekuvan nettisivulta: **kali.org/get-kali/#kali-virtual-machines**.
 
-Seuraavaksi purin paketin, ja avasin Kali-tiedoston, se aukesi automaattisesti konfiguraatiovaiheeseen VirtualBoxissa. Säädin muistia 4GB asti kuten vinkeissä neuvottiin.
+<img width="530" height="122" alt="image" src="https://github.com/user-attachments/assets/fee1f40e-bc15-416b-b3a5-6a747755f23a" />
+
+
+Kuvassa olin jo purrut paketin, ja seuraavaksi avasin Kali-tiedoston, se aukesi automaattisesti konfiguraatiovaiheeseen VirtualBoxissa. Säädin muistia 4GB asti kuten vinkeissä neuvottiin.
 
 
 ## b)
