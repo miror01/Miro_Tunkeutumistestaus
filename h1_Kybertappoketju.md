@@ -29,6 +29,26 @@ Keskeinen ajatus artikkelissa on, että hyökkääjän täytyy onnistua aivan jo
 Aktiivisessa skannauksessa on hyökkääjälläkin paljon huolehdittavaa. Siinä ollaan suorassa yhteydessä kohteeseen, joten skannauksesta jää aina jälki kohdejärjestelmän lokitietoihin.
 
 
-KKO 2003:36 on Korkeikkamn oikeuden ennakkoratkaisu tapauksesta jossa oltiin tunkeuduttu tietojärjestelmään ja aiheutettu vahinkoa. Päätös on määritelty Suomen rikoslain mukaan, ja se kertoo, että pelkkä murto järjestelmiin täyttää rikoksen merkit, vaikkei vahinkoa tehtäisikään.
+KKO 2003:36 on Korkeimman oikeuden ennakkoratkaisu tapauksesta jossa oltiin tunkeuduttu tietojärjestelmään ja aiheutettu vahinkoa. Päätös on määritelty Suomen rikoslain mukaan, ja se kertoo, että pelkkä murto järjestelmiin täyttää rikoksen merkit, vaikkei vahinkoa tehtäisikään.
 
 ## a)
+
+Latasin ensiksi ISO-tiedoston sijaan valmiiksi konfiguroidun virtuaalikonekuvan Kalista, säästyäkseni pitkältä asennusvaiheelta. Löysin virtuaalikonekuvan nettisivulta: **kali.org/get-kali/#kali-virtual-machines**.
+
+Seuraavaksi purin paketin, ja avasin Kali-tiedoston, se aukesi automaattisesti konfiguraatiovaiheeseen VirtualBoxissa. Säädin muistia 4GB asti kuten vinkeissä neuvottiin.
+
+
+## b)
+
+Irrotin Kali-koneen verkosta. Tästä täytyy pitää huolta jotta mitään laitonta ei vahingossakaan tehdä.
+
+VirtualBoxin Kali-koneen verkkoasetuksista kohdasta **Attached to**, valitaan vaihtoehto **Not attached**.
+
+Testasin verkkoyhteyttä Kalin terminaalissa komennolla **ping 8.8.8.8**, josta vastauksena tuli "Network is unreachable". Tästä voin todeta, että verkkoyhteyden katkaiseminen onnistui.
+
+
+## c)
+
+Porttiskannasin omaa konettani komennolla **sudo nmap -T4 -A localhost**.
+
+Komennossa on paljon parametrejä, jotka on hyvä tietää. **sudo** suorittaa skannauksen root-oikeuksilla, ja **nmap** on työkalu, jolla skannaus suoritetaan. **-T4** on asetus, joka käyttää eri tasoja. Taso 4 tarkoittaa agressiivista skannausta, eli skannaus suorittuu nopeammin. **localhost** tarkoittaa omaa tietokonetta, eli skannaus suoritetaan itselle.
