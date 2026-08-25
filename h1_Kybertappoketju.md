@@ -50,7 +50,12 @@ Irrotin Kali-koneen verkosta. Tästä täytyy pitää huolta jotta mitään lait
 
 VirtualBoxin Kali-koneen verkkoasetuksista kohdasta **Attached to**, valitaan vaihtoehto **Not attached**.
 
-Testasin verkkoyhteyttä Kalin terminaalissa komennolla **ping 8.8.8.8**, josta vastauksena tuli "Network is unreachable". Tästä voin todeta, että verkkoyhteyden katkaiseminen onnistui.
+<img width="358" height="203" alt="image" src="https://github.com/user-attachments/assets/4d6787e0-5b5e-4980-992d-e409214dc788" />
+
+
+Testasin verkkoyhteyttä Kalin terminaalissa komennolla **ping 8.8.8.8**, josta vastauksena tuli "100% packet loss". Tästä voin todeta, että verkkoyhteyden katkaiseminen onnistui.
+
+<img width="263" height="93" alt="image" src="https://github.com/user-attachments/assets/2f8a6ce1-2b04-4935-9c92-d5e6fbe9fced" />
 
 
 ## c)
