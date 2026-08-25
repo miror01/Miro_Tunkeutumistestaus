@@ -80,4 +80,6 @@ Palvelut päälle komennolla **sudo systemctl start apache2** ja **ssh**, ja uud
 
 <img width="357" height="179" alt="image" src="https://github.com/user-attachments/assets/6515e236-9d21-4aef-b064-52bcfd5472fd" />
 
+Kuvasta näkee, että portit 80, ja 22 ovat nyt auki. Portti 22 vastaa ssh-palvelinta ja Portti 80 on HTTP-portti Apachelle.
+
 
