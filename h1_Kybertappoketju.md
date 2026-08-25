@@ -62,4 +62,9 @@ Testasin verkkoyhteyttä Kalin terminaalissa komennolla **ping 8.8.8.8**, josta 
 
 Porttiskannasin omaa konettani komennolla **sudo nmap -T4 -A localhost**.
 
+<img width="328" height="164" alt="image" src="https://github.com/user-attachments/assets/0966e175-6c07-434a-9b90-23c19c7eca32" />
+
+
 Komennossa on paljon parametrejä, jotka on hyvä tietää. **sudo** suorittaa skannauksen root-oikeuksilla, ja **nmap** on työkalu, jolla skannaus suoritetaan. **-T4** on asetus, joka käyttää eri tasoja. Taso 4 tarkoittaa agressiivista skannausta, eli skannaus suorittuu nopeammin. **localhost** tarkoittaa omaa tietokonetta, eli skannaus suoritetaan itselle.
+
+Kuvassa näkyy, että kaikki 1000 skannattua porttia ovat kiinni. Portteja skannataan aina vain 1000, ellei toisin määritetä.
