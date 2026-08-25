@@ -7,11 +7,17 @@
 2. Artikkelissa **Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains** käydään läpi Kybertappoketjua, joka on Lockheed Martin:in kehittämä malli jossa hyökkääjien toiminta jaetaan 7 eri vaiheeseen. Mallin vaiheet ovat:
 
 Reconnaissance: Kohdetta tutkitaan saadaakseen tietoa haavoittuvuuksista.
+
 Weaponization: Haittaohjelma aseistetaan muotoon jossa se voidaan toimittaa uhrille.
+
 Delivery: Haittaohjelma toimitetaan uhrille.
+
 Exploitation: Haavoittuvuutta hyödynnetään jotta haittaohjelman koodia voidaan suorittaa.
+
 Installation: Haittaohjelma ja mahdollinen takaovi (backdoor) hallinnan säilyttämistä varten asennetaan.
+
 Command & Control: Hyökkääjä ottaa yhteyden altistuneelle koneelle.
+
 Actions on Objectives: Hyökkääjän tavoitteen toteuttaminen, kuten tärkeiden tietojen varastaminen tai tuhoaminen.
 
 Keskeinen ajatus artikkelissa on, että hyökkääjän täytyy onnistua aivan jokaisessa vaiheessa, jotta hyökkäys onnistuu. Hyökkääjän estäminen missä tahansa vaiheessa estää koko hyökkäyksen, ja tämä malli auttaa tietoturvatiimejä analysoimaan ja keskustelemaan uhista mallin avulla.
