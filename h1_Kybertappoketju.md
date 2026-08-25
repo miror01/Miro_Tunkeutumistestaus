@@ -68,3 +68,8 @@ Porttiskannasin omaa konettani komennolla **sudo nmap -T4 -A localhost**.
 Komennossa on paljon parametrejä, jotka on hyvä tietää. **sudo** suorittaa skannauksen root-oikeuksilla, ja **nmap** on työkalu, jolla skannaus suoritetaan. **-T4** on asetus, joka käyttää eri tasoja. Taso 4 tarkoittaa agressiivista skannausta, eli skannaus suorittuu nopeammin. **localhost** tarkoittaa omaa tietokonetta, eli skannaus suoritetaan itselle.
 
 Kuvassa näkyy, että kaikki 1000 skannattua porttia ovat kiinni. Portteja skannataan aina vain 1000, ellei toisin määritetä.
+
+
+## d)
+
+Seuraavaksi yhdistin hetkeksi koneen takaisin verkkoon ja asensin 2 demonia. Ajoin terminaalissa komennot: **sudo apt update**, sekä **sudo apt install -y apache2 openssh-server**. Päädyin apache2:een ja ssh-palvelimeen, yhdistin molemmat demonit samaan komentoon.
