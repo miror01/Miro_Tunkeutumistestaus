@@ -82,4 +82,8 @@ Palvelut päälle komennolla **sudo systemctl start apache2** ja **ssh**, ja uud
 
 Kuvasta näkee, että portit 80, ja 22 ovat nyt auki. Portti 22 vastaa ssh-palvelinta ja Portti 80 on HTTP-portti Apachelle.
 
+## e)
+
+Koin paljon ongelmia yrittäessäni muodostaa yhteyttä HackTheBox:iin ja aikani loppui kesken, suoritan kyseisen tehtävän heti kun kerkeän ja päivitän tänne.
+
 
