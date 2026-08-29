@@ -116,7 +116,7 @@ Seuraavaksi seurasin HTB:n tehtäviä ja otin FTP-yhteyden kohdekoneeseen.
 
 Ilman annettua käyttäjätunnusta oletus on aina **anonymous**, ja salasanaa ei ollut.
 
-**ls**-komennolla löysin FTP-yhteyden kautta kohdekoneelta tiedoston flaf.txt, ja vedin tämän omalle koneelle komennolla **get flag.txt**. suljin yhteyden komennolla **exit**, ja viimeiseksi paljastin flagin omalta koneeltani komennolla **cat flag.txt**.
+**ls**-komennolla löysin FTP-yhteyden kautta kohdekoneelta tiedoston flag.txt, ja vedin tämän omalle koneelle komennolla **get flag.txt**. suljin yhteyden komennolla **exit**, ja viimeiseksi paljastin flagin omalta koneeltani komennolla **cat flag.txt**.
 
 <img width="490" height="202" alt="image" src="https://github.com/user-attachments/assets/3f31d6f6-5b7f-4e90-84d4-9cbb0ea9e805" />
 
