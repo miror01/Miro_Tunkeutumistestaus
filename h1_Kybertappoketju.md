@@ -84,6 +84,51 @@ Kuvasta näkee, että portit 80, ja 22 ovat nyt auki. Portti 22 vastaa ssh-palve
 
 ## e)
 
-Koin paljon ongelmia yrittäessäni muodostaa yhteyttä HackTheBox:iin ja aikani loppui kesken, suoritan kyseisen tehtävän heti kun kerkeän ja päivitän tänne.
+Valitsin tehtäväkseni Hack The Box:sta Starting Pointin "Fawn". tehtävän. Tehtävän suoritus alkoi OpenVPN-yhteyden muodostamisella.
+
+<img width="220" height="290" alt="image" src="https://github.com/user-attachments/assets/5ff3373c-a616-4db8-89f2-f1cd6fedd808" />
+
+Kuvan näkymästä latasin oman .ovpn-tiedostoni.
+
+Terminaalissa siirryin ekana kansioon jonne ovpn-tiedosto latautui, komennolla **cd Downloads**, ja sieltä loin VPN-yhteyden komennolla **sudo openvpn starting_points_eu-starting-point-2-dhcp.ovpn**
+
+<img width="848" height="245" alt="image" src="https://github.com/user-attachments/assets/11529eb6-ad9e-4d1b-9b31-ef7649a528bc" />
+
+Tarkistin vielä VPN-yhteyden toimivuuden, vinkeissä mainitaan, että komento **ping 8.8.8.8** ei pitäisi toimia, jos VPN-yhteys on luotu onnistuneesti, joten testasin sitä.
+
+<img width="263" height="89" alt="image" src="https://github.com/user-attachments/assets/417743a4-fafa-4950-80f1-3ebb4c7c4ba2" />
+
+Kaikki näyttäisi toimivan. Hienoa.
+
+HTB:stä käynnistetään Fawn-kone. Testataan yhteys koneeseen komennolla **ping**.
+
+<img width="269" height="160" alt="image" src="https://github.com/user-attachments/assets/273a8d7f-fc39-4da2-b050-8a76b1e2c7f2" />
+
+Yhteys toimii hyvin. Seuraavaksi haluan ottaa selvää, mitä palveluita kohdekoneessa pyörii. Tämä toteutetaan nmap-porttiskannerin avulla komennolla **nmap -sV <KOHDE>**. lippu **-sV** auttaa porteissa käynnissä olevien ohjelmistojen ja versioiden tunnistamisessa.
+
+<img width="386" height="146" alt="image" src="https://github.com/user-attachments/assets/78421d1b-8158-4af3-bd4b-92cf77c1ed79" />
+
+Portti 21 auki FTP-palvelua varten.
+
+Seuraavaksi seurasin HTB:n tehtäviä ja otin FTP-yhteyden kohdekoneeseen.
+
+<img width="184" height="86" alt="image" src="https://github.com/user-attachments/assets/76bb2a01-dc14-4635-bd81-b360468a9449" />
+
+Ilman annettua käyttäjätunnusta oletus on aina **anonymous**, ja salasanaa ei ollut.
+
+**ls**-komennolla löysin FTP-yhteyden kautta kohdekoneelta tiedoston flaf.txt, ja vedin tämän omalle koneelle komennolla **get flag.txt**. suljin yhteyden komennolla **exit**, ja viimeiseksi paljastin flagin omalta koneeltani komennolla **cat flag.txt**.
+
+<img width="490" height="202" alt="image" src="https://github.com/user-attachments/assets/3f31d6f6-5b7f-4e90-84d4-9cbb0ea9e805" />
+
+Ja täten Starting Point-tehtävä Fawn on valmis.
+
+
+
+
+
+
+
+
+
 
 
