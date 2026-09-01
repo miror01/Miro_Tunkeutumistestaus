@@ -32,6 +32,6 @@ Testejä valvoo organisaation johdosta koostuva ryhmä, Control Team. Ne valvoo 
 
 ## Lähteet
 
-# Buuri 2026: https://terokarvinen.com/buuri-2026-dora-and-threat-lead-penetration-testing/buuri-2026-dora-and-threat-lead-penetration-testing--teros-pentest-course.pdf
-# DORA: https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng
-# TIBER-FI: 
+### Buuri 2026: https://terokarvinen.com/buuri-2026-dora-and-threat-lead-penetration-testing/buuri-2026-dora-and-threat-lead-penetration-testing--teros-pentest-course.pdf
+### DORA: https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng
+### TIBER-FI: 
