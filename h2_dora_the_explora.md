@@ -36,15 +36,16 @@ Latasin aluksi Metasploitable- virtuaalikoneen osoitteesta **https://sourceforge
 
 Luodaan Kalin ja Metasploitablen välille virtuaaliverkko. Molemmat virtuaalikoneet tulee olla sammutettuna verkkokorttien muokkausta varten.
 
-Loin uuden Host-Only- verkon VirtualBoxin verkkoasetuksista. Seuraavaksi lisäsin Metasploitable 2- koneen verkkoasetuksista uuden luomani verkon sen ainoaksi verkoksi, ja varmistin ettei loput adapterit (2-4) ole käytössä.
+Loin uuden Host-Only- verkon VirtualBoxin verkkoasetuksista. Seuraavaksi lisäsin Metasploitable 2- koneen verkkoasetuksista uuden luomani verkon sen ainoaksi verkoksi, ja varmistin ettei loput verkkokortit (2-4) ole käytössä.
 
 <img width="598" height="401" alt="image" src="https://github.com/user-attachments/assets/b725bee7-65c3-4fc7-960d-a7ba755b486b" />
 
 
-Sitten siirryin Kali-koneeseen. Lisäsin käyttöön Adapter 2:n, ja valitsin siihen saman Host-only adapterin.
+Sitten siirryin Kali-koneeseen. Lisäsin käyttöön toisen verkkokortin, ja valitsin siihen saman Host-only verkon.
 
 <img width="572" height="164" alt="image" src="https://github.com/user-attachments/assets/74d2b31b-1263-42c5-9fe7-4db01c51424c" />
 
+**Host-only verkko on eristetty verkko virtuaalikoneiden ja hostin välillä. Sillä ei ole pääsyä internetiin, ja on täten turvallinen tehtävissä, kun niillä on yhteys ainoastaan toisiinsa.**
 
 
 
