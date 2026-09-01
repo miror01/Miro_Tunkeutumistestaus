@@ -47,7 +47,6 @@ Sitten siirryin Kali-koneeseen. Lisäsin käyttöön toisen verkkokortin, ja val
 
 **Host-only verkko on eristetty verkko virtuaalikoneiden ja hostin välillä. Sillä ei ole pääsyä internetiin, ja on täten turvallinen tehtävissä, kun niillä on yhteys ainoastaan toisiinsa.**
 
-Tehtävää tehdessä paljastui, että DHCP Server- asetus kannattaa kytkeä päälle, jotta metasploitablella pystyy tarkistamaan oman ip-osoitteen, korjasin tämän 
 
 
 ## c)
