@@ -88,7 +88,24 @@ Skannataan Metasploitable huolellisesti uusien parametrien kera. Komentona toimi
 **-p-** on flagi, joka määrää skannauksen kaikkiin mahdollisiin TCP-portteihin.
 
 
+Löysin tuloksista kiinnostavia portteja tehtävän kannalta. Muun muassa:
 
+#### 1. Portti 21/TCP: FTP versio "vsftpd 2.3.4"
+
+Ongelma tässä portissa löytyy versiosta. Tämä kyseinen versio on siis hyvin tunnettu takaovellinen FTP-versio. Sitä voidaan hyväksikäyttää niin, että kun käyttäjä syöttää käyttäjätunnukseen hymiön **:)**, käyttäjä saa pääkäyttäjän oikeudet ja porttiin 6200 aukeaa takaovi.
+
+
+#### 2. Portti 139&445/TCP: SMB-tiedostonjako palvelin versio "Samba 3.0.20"
+
+Tässäkin tapauksessa versiossa on erittäin kriittinen haavoittuvuus. Käyttäjä voi suorittaa komentoja pääkäyttäjän oikeuksilla syöttämällä komentonsa taktisesti osaksi käyttäjänimeään SMB-pyynnöissä.
+
+
+#### 3. Portti 1524/TCP: ingreslock bindshell Root shell
+
+Järjstelmään jätetty komentoikkuna. Oikeastaan millä vain verkkotyökalulla voi yhdistää portiin, ja täten käyttäjä saa heti pääkäyttäjän oikeudet.
+
+
+Metasploitablen hyväksikäytettävät portit ja niiden tiedot löytyi kätevästi Rapid7:n hyödynnettävyysoppaasta osoiteessa **https://docs.rapid7.com/metasploit/metasploitable-2-exploitability-guide/**
 
 
 
@@ -98,3 +115,4 @@ Skannataan Metasploitable huolellisesti uusien parametrien kera. Komentona toimi
 ### Buuri 2026: https://terokarvinen.com/buuri-2026-dora-and-threat-lead-penetration-testing/buuri-2026-dora-and-threat-lead-penetration-testing--teros-pentest-course.pdf
 ### DORA: https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng
 ### TIBER-FI: https://www.suomenpankki.fi/globalassets/bof/en/money-and-payments/the-bank-of-finland-as-catalyst-payments-council/tiber-fi/tiber-fi-2.0-procedures-and-guidelines.pdf
+### Metasploitable 2 Exploitability Guide: https://docs.rapid7.com/metasploit/metasploitable-2-exploitability-guide/
