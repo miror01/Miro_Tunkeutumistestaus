@@ -109,6 +109,16 @@ Metasploitablen hyväksikäytettävät portit ja niiden tiedot löytyi käteväs
 
 
 
+## f) BONUS
+
+Vielä kokeilin murtautua Metasploitableen ylemmällä olevia keinoja hyödyntäen!
+
+Löysin murtautumiskomennoksi komennon **nc**. 
+
+
+
+
+
 
 ## Lähteet
 
