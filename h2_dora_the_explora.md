@@ -23,7 +23,15 @@ Red Team:n testausta organisaatioihin puolustaa organisaatioiden sisäinen tieto
 Testejä valvoo organisaation johdosta koostuva ryhmä, Control Team. Ne valvoo punaisen tiimin toimintaa ja pitää huolen, että kaikki pysyy kondiksessa.
 
 
+## a)
 
+Latasin aluksi Metasploitable- virtuaalikoneen osoitteesta **https://sourceforge.net/projects/metasploitable/**, ja lisäsin sen purkauksen jälkeen virtualboxiin
+
+
+
+## b)
+
+Luodaan Kalin ja Metasploitablen välille virtuaaliverkko.
 
 
 
@@ -34,4 +42,4 @@ Testejä valvoo organisaation johdosta koostuva ryhmä, Control Team. Ne valvoo 
 
 ### Buuri 2026: https://terokarvinen.com/buuri-2026-dora-and-threat-lead-penetration-testing/buuri-2026-dora-and-threat-lead-penetration-testing--teros-pentest-course.pdf
 ### DORA: https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng
-### TIBER-FI: 
+### TIBER-FI: https://www.suomenpankki.fi/globalassets/bof/en/money-and-payments/the-bank-of-finland-as-catalyst-payments-council/tiber-fi/tiber-fi-2.0-procedures-and-guidelines.pdf
