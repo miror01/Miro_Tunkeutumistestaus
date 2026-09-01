@@ -58,8 +58,13 @@ Seuraavaksi Kalilla, pingasin Googlen DNS-palvelinta sekä Metasploitablea selvi
 <img width="419" height="291" alt="image" src="https://github.com/user-attachments/assets/50854a99-e376-4333-931e-c09f70fc27d8" />
 
 
-Googlen DNS-palvelimeen on 100% packet loss, eli Internet-yhteyttä ei ole, Metasploitablen ip-osoitteeseen packet loss on 0%, eli kaikki paketit menevät läpi. Toimii kuten tarkoitettu.
+Googlen DNS-palvelimeen on 100% packet loss, eli Internet-yhteyttä ei ole, Metasploitablen ip-osoitteeseen packet loss on 0%, eli kaikki paketit menevät läpi, kaikki toimii tarkoitetusti :)
 
+
+## d)
+
+
+Seuraavaksi etsitään Metasploitable porttiskannauksen avulla. Komentona toimii **nmap -sN *metasploitable ip-osoite* **
 
 
 
