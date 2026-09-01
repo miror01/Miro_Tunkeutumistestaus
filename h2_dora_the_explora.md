@@ -67,6 +67,19 @@ Googlen DNS-palvelimeen on 100% packet loss, eli Internet-yhteyttä ei ole, Meta
 Seuraavaksi etsitään Metasploitable porttiskannauksen avulla. Komentona toimii **nmap -sN /metasploitable ip-osoite/**
 
 
+<img width="610" height="688" alt="image" src="https://github.com/user-attachments/assets/692f5f59-62b7-449d-b338-ecf21dac6bf8" />
+
+
+Kuten kuvasta näkee, portteja on auki suuri määrä. Tarkistetaan vielä Kalin selaimesta, että IP-osoite vastaa Metasploitablea. Hakuun Metasploitablen IP-osoite.
+
+
+<img width="922" height="541" alt="image" src="https://github.com/user-attachments/assets/64db97cb-900b-4aa2-a974-82cf91e97154" />
+
+
+
+
+
+
 
 
 
