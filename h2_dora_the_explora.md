@@ -41,6 +41,9 @@ Loin uuden Host-Only- verkon VirtualBoxin verkkoasetuksista. Seuraavaksi lisäsi
 <img width="598" height="401" alt="image" src="https://github.com/user-attachments/assets/b725bee7-65c3-4fc7-960d-a7ba755b486b" />
 
 
+Sitten siirryin Kali-koneeseen. Lisäsin käyttöön Adapter 2:n, ja valitsin siihen saman Host-only adapterin.
+
+<img width="572" height="164" alt="image" src="https://github.com/user-attachments/assets/74d2b31b-1263-42c5-9fe7-4db01c51424c" />
 
 
 
