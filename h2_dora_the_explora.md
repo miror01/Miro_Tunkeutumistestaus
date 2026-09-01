@@ -64,7 +64,7 @@ Googlen DNS-palvelimeen on 100% packet loss, eli Internet-yhteyttä ei ole, Meta
 ## d)
 
 
-Seuraavaksi etsitään Metasploitable porttiskannauksen avulla. Komentona toimii **nmap -sN /metasploitable ip-osoite/ **
+Seuraavaksi etsitään Metasploitable porttiskannauksen avulla. Komentona toimii **nmap -sN /metasploitable ip-osoite/**
 
 
 
