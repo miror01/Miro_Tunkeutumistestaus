@@ -25,7 +25,10 @@ Testejä valvoo organisaation johdosta koostuva ryhmä, Control Team. Ne valvoo 
 
 ## a)
 
-Latasin aluksi Metasploitable- virtuaalikoneen osoitteesta **https://sourceforge.net/projects/metasploitable/**, ja lisäsin sen purkauksen jälkeen virtualboxiin
+Latasin aluksi Metasploitable- virtuaalikoneen osoitteesta **https://sourceforge.net/projects/metasploitable/**, ja lisäsin sen purkauksen jälkeen virtualboxiin, jonka avulla loin uuden virtuaalikoneen.
+
+<img width="399" height="92" alt="image" src="https://github.com/user-attachments/assets/70f691ea-b94d-48c8-8758-2e6aec3f6725" />
+
 
 
 
