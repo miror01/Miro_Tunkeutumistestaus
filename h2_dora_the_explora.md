@@ -77,7 +77,15 @@ Kuten kuvasta näkee, portteja on auki suuri määrä. Tarkistetaan vielä Kalin
 
 
 
+## e)
 
+Skannataan Metasploitable huolellisesti uusien parametrien kera. Komentona toimii **nmap -A -T4 -p- /ip-osoite/**. 
+
+**-A** tarkoittaa agressiivista skannaustilaa, ja se yhdistää useita ominaisuuksia yhdellä lipulla. Se yrittää selvittää kohdekoneen järjestelmän ja version, portissa pyörivät ohjelmistot ja niiden versiot, sekä verkkoreitin koneiden välillä.
+
+**-T4** on nopeusprofiili. Asetus 4 tarkoittaa myös agressiivista skannausta. Skannaus suorittuu nopeammin.
+
+**-p-** on flagi, joka määrää skannauksen kaikkiin mahdollisiin TCP-portteihin.
 
 
 
