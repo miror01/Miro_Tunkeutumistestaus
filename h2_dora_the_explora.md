@@ -105,7 +105,7 @@ Tässäkin tapauksessa versiossa on erittäin kriittinen haavoittuvuus. Käyttä
 Järjstelmään jätetty komentoikkuna. Oikeastaan millä vain verkkotyökalulla voi yhdistää portiin, ja täten käyttäjä saa heti pääkäyttäjän oikeudet.
 
 
-Metasploitablen hyväksikäytettävät portit ja niiden tiedot löytyi kätevästi Rapid7:n hyödynnettävyysoppaasta osoiteessa **https://docs.rapid7.com/metasploit/metasploitable-2-exploitability-guide/**
+Metasploitablen hyväksikäytettävät portit ja niiden tiedot löytyi kätevästi Rapid7:n hyödynnettävyysoppaasta osoitteessa: **https://docs.rapid7.com/metasploit/metasploitable-2-exploitability-guide/**
 
 
 ## Lähteet
