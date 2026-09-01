@@ -53,7 +53,12 @@ Sitten siirryin Kali-koneeseen. Lisäsin käyttöön toisen verkkokortin, ja val
 
 Testataan yhteys internetiin sekä yhteys koneiden välillä. Ensiksi eristin Kalin verkosta, eli Adapter 1 tehtävän ajaksi NAT:in sijaan "Not Attached"- tilaan.
 
+Seuraavaksi Kalilla, pingasin Googlen DNS-palvelinta sekä Metasploitablea selvittääkseni toimivuuden.
 
+<img width="419" height="291" alt="image" src="https://github.com/user-attachments/assets/50854a99-e376-4333-931e-c09f70fc27d8" />
+
+
+Googlen DNS-palvelimeen on 100% packet loss, eli Internet-yhteyttä ei ole, Metasploitablen ip-osoitteeseen packet loss on 0%, eli kaikki paketit menevät läpi. Toimii kuten tarkoitettu.
 
 
 
