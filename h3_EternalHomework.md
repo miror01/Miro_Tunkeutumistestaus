@@ -25,6 +25,7 @@ Siiryin Kalille, varmistin että verkko on Host-only, ja käynnistin Metasploiti
 
 
 
+<img width="465" height="333" alt="h3_1" src="https://github.com/user-attachments/assets/62ccd3f0-7b52-4169-849d-0c564f6d53dd" />
 
 
 
