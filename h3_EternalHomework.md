@@ -23,10 +23,10 @@ Aivan ensiksi otin ylös metasploitable-koneen IP-osoitteen. Kirjautuminen käyt
 Siiryin Kalille, varmistin että verkko on Host-only, ja käynnistin Metasploitin tietokannan ja Konsolin. Siirryin consoleen komennolla **sudo msfconsole**, ja kokeilin **db_status**.
 
 
-
-
 <img width="465" height="333" alt="h3_1" src="https://github.com/user-attachments/assets/62ccd3f0-7b52-4169-849d-0c564f6d53dd" />
 
+
+Ajoin seuraavaksi skannauksen msf:ssä Metasploitin IP-osoitteeseen. Komentona **db_nmap -sV 192.168.60.4** näemme Metasploitablessa avoinna olevat portit.
 
 
 
