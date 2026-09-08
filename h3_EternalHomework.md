@@ -50,6 +50,10 @@ Siiryin Kalille, varmistin että verkko on Host-only, ja käynnistin Metasploiti
 
 
 
+
+
+
+
 ## Lähteet
 
 Nmap Reference Guide, Host Discovery: https://nmap.org/book/man-host-discovery.html
