@@ -113,6 +113,55 @@ Aktivoidaan uusi sessio, ja hyödynnetään komentoja kuten **sysinfo**, **ifcon
 **netstat** näytttää meille aktiivisia yhteyksiä, sekä auki olevia portteja. Paljastaa palveluita ja laitteita.
 
 
+## h)
+
+Murtauduin metasploitableen aiemmilta skannauksilta löytyneellä Samba-palvelun tavalla. Poistuin ekana aiemmasta sessiosta komennolla **exit**,ja sitten komento **use exploit/multi/samba/usermap_script**.
+
+
+<img width="440" height="206" alt="h3_10" src="https://github.com/user-attachments/assets/6f949c93-04f2-410c-8941-ea6cead25194" />
+
+
+## i)
+
+Meterpreterin ominaisuuksia näytety jo pitkin reportttia aiemmissa kohdissa, kuten komennot **getuid**, Meterpreter sessiossa, joka näyttää onko Root-oikeudet.
+
+## j)
+
+Tallennetaan komennolla **script -fa log1.txt** shell-sessio, siihen asti kunnes laitetaan komento **exit**.
+
+
+<img width="444" height="259" alt="h3_12" src="https://github.com/user-attachments/assets/e95611b1-9710-457a-8321-6d647be94c70" />
+
+
+## k) 
+
+Loin uuden kansion ja siirsin tehtävän tiedostot sinne. 
+
+
+<img width="308" height="185" alt="h3_13" src="https://github.com/user-attachments/assets/661511aa-9680-41b6-962f-f947dcbef946" />
+
+
+Nyt, jos pitäisi tietää mikä on vaikkapa kohdekoneen MAC-osoite, ja mitä Apache-palvelun versiotta se käyttää, **grep -r -i** löytää sen meille.
+
+<img width="702" height="239" alt="h3_14" src="https://github.com/user-attachments/assets/b5578b92-523e-432f-8082-d0664e58a802" />
+
+
+MAC-osoite: 08:00:27:47:EC:EC
+Apache-versiot: Apache httpd 2.2.8 ((Ubuntu) DAV/2) portissa 80 ja Apache Tomcat/Coyote JSP engine 1.1 portissa 8180.
+
+
+## l)
+
+
+Käytin tehtävän suorittamisessa montaa eri MITRE-taktiikkaa ja tekniikkaa, kuten:
+
+Taktiikka: Reconnaissance, Tekniikka: Active Scanning. Kartoiteltiin avoimia portteja ja versioita Nmapilla ja Metasploitilla.
+Taktiikka: Initial Access, Tekniikka: Exploit Public-Facing Application. Löydettiin tunnetut haavoitttuvuudet.
+Taktiikka: Execution, Tekniikka: Command and Scripting Interpreter. Komennot Meterpreterissä. Eli siis takaoven kautta
+Taktiikka: Discovery, Tekniikka: System Information Discovery. Kerättiin tiedot järjstelmästä, muun muassa **getuid**, **sysinfo**.
+Taktiikka: Discovery, Tekniikka: System Network Configuration Discovery. Kerätttiin myös IP-osoitteet.
+
+
 
 
 
