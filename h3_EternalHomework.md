@@ -169,13 +169,12 @@ Taktiikka: Discovery, Tekniikka: System Network Configuration Discovery. Kerätt
 
 
 
-
-
-
-
 ## Lähteet
 
 Nmap Reference Guide, Host Discovery: https://nmap.org/book/man-host-discovery.html
+
 Metasploitable 2 Exploitability Guide: https://docs.rapid7.com/metasploit/metasploitable-2-exploitability-guide/
+
 MITRE Attack: https://attack.mitre.org/
+
 Tero Karvinen website: https://terokarvinen.com/tunkeutumistestaus/#laksyt
