@@ -16,7 +16,11 @@ Selityksen löysin nmap:in opaskirjasta, merkattu lopuss lähteisiin.
 Luotettavuus on pääteltävissä siitä, että nmap on yli 25 vuotta vanha maailmanlaajuisesti käytetty ja hyväksytty avoimen lähdekoodin työkalu asiantuntijoiden keskellä, ja opaskirjan on kirjoittanutt Nmapin alkuperäinen kehittäjä.
 
 
+## b)
 
+Aivan ensiksi otin ylös metasploitable-koneen IP-osoitteen. Kirjautuminen käyttäjättunnuksella sekä salanalla: **msfadmin**. Seuraavaksi komento **ip addr**. 
+
+Siiryin Kalille, varmistin että verkko on Host-only, ja käynnistin Metasploitin tietokannan ja Konsolin. Siirryin consoleen komennolla **sudo msfconsole**, ja kokeilin **db_status**.
 
 
 
