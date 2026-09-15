@@ -80,7 +80,9 @@ Laitoin labrassa testisyötteen. Sain videoiden ja vinkkien kautta nähdä, ett�
 
 <img width="583" height="238" alt="h4_3" src="https://github.com/user-attachments/assets/cd336f45-00e5-4ef9-a2af-ea7037b1aab8" />
 
-Valitettavasti en saanut vielä tehtävää suoritettua loppuun, siihen tuli jotain häikkää enkä ehtinyt saamaan sitä korjattua, yritän huomenna uudestaan kunhan kerkiän.
+
+
+### Valitettavasti en saanut vielä tehtävää suoritettua loppuun, siihen tuli jotain häikkää enkä ehtinyt saamaan sitä korjattua, yritän huomenna uudestaan kunhan kerkiän.
 
 
 
