@@ -48,6 +48,8 @@ Sitten muutetaan ohjeiden mukaan firefoxista proxy-asetuksia. Laiton hakuriviin 
 
 Seuraavaksi muutetaan proxy-asetuksista uusi manuaalinen ZAP proxy. Osoitteena local host 127.0.0.1 ja porttina 8080. Tarkistin toimivuuden avaamalla uuden välilehden firefoxissa ja tarkastamalla ZAP:i, kaikki toimii kuten pitää. 
 
+<img width="491" height="415" alt="image" src="https://github.com/user-attachments/assets/f8116e7f-324f-4dd4-bf64-01681c1f74c4" />
+
 
 
 
