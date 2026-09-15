@@ -51,6 +51,10 @@ Seuraavaksi muutetaan proxy-asetuksista uusi manuaalinen ZAP proxy. Osoitteena l
 <img width="491" height="415" alt="image" src="https://github.com/user-attachments/assets/f8116e7f-324f-4dd4-bf64-01681c1f74c4" />
 
 
+## b)
+
+Lisäsin ensiksi firefoxiin FoxyProxy Standard-lisäosan. Sitten avasin FoxyProxyn firefoxissa, ja lisäsin Options:in Proxy-kohdasta uuden proxy-profiilin.
+
 
 
 
