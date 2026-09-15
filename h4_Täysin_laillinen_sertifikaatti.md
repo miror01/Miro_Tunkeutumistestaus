@@ -95,10 +95,10 @@ Valitettavasti en saanut vielä tehtävää suoritettua loppuun, siihen tuli jot
 
 
 
-
-
-
-
 ## Lähteet)
 
 OWASP TOP10 2021 Broken Access Control: https://top10.owasp.org/2021/A01_2021-Broken_Access_Control/
+Terokarvinen.com https://terokarvinen.com/tunkeutumistestaus/#laksyt
+Cross-site scripting: https://portswigger.net/web-security/cross-site-scripting
+Path traversal: https://portswigger.net/web-security/file-path-traversal
+IDOR: https://portswigger.net/web-security/access-control/idor
