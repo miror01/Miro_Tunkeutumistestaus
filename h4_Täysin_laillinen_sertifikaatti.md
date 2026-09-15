@@ -44,6 +44,16 @@ Sitten lisäsin sertifikaatin firefoxiin. Firefoxissa asetuksista kohta Certific
 
 Sitten muutetaan ohjeiden mukaan firefoxista proxy-asetuksia. Laiton hakuriviin about:config ja sitten network.proxy.allow_hijacking_localhost, vaihdoin sen arvoon True.
 
+<img width="702" height="184" alt="image" src="https://github.com/user-attachments/assets/2517a64f-2740-4d06-b06e-a4cc57ec4d27" />
+
+
+
+
+
+
+
+
+
 
 
 
