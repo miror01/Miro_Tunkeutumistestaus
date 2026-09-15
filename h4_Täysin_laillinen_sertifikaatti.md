@@ -18,7 +18,20 @@
 * Hyökkäyksen ideana on hakemistojen kanssa vääränlaisten toimivien navigointimerkkien syöttämiseen, joiden ansiosta ohjelmia voidaan avata niille suunniteltujen kansioiden ulkopuolella, ja päästään käsiksi järjestelmän tietoihin.
 
 
+### Cross-Site Scripting (XSS)
+* Verkkosovelluksella on puutteellinen syötteentarkistus, ja se ottaa vastaan kaikkea käyttäjän syötettä, ja täten voidaan käyttää hyväksi.
+* Mahdollistaa sen, että hyökkääjä voi päästä käsiksi uhrin tietoihin, kun verkkosovellus ajaa haitallista koodia uhrien selaimissa.
 
+
+
+## a)
+
+Ensiksi asensin Kaliin OWASP ZAP:in
+
+
+
+
+ 
 
 
 
