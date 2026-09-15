@@ -28,6 +28,7 @@
 
 Ensiksi asensin Kaliin OWASP ZAP:in
 
+<img width="1252" height="613" alt="image" src="https://github.com/user-attachments/assets/f3f2afc2-2ff9-4407-bb92-75b323f55470" />
 
 
 
