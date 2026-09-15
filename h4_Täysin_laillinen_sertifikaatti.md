@@ -6,9 +6,16 @@
 * Riskiluokka on erittäin laaja, ja se mahdollistaa monia eri hyökkäystapoja, kuten Path Traversal ja IDOR.
 
 
-## x) 
+### Insecure Direct Object References (IDOR)
+
+* IDOR on osa Broken Access Control-luokkaa, joka tapahtuu kun sovellus ei tarkista käyttöoikeuksia käyttäjän syötteestä, vaan käyttää syötettä suoraan.
+* Luvattomiin tietoihin pääsy tulee helpoksi, kun käyttäjä voi yksinkertaisesti vaan muokata syötteen tunnusta niin, että se tulisi joltain muulta.
 
 
+### Path Traversal
+
+* Path Traversalin avulla hyökkääjä pystyy lukemaan hänelle kuulumattomia tiedostoja suoraan palvelimen järjestelmästä.
+* Hyökkäyksen ideana on hakemistojen kanssa vääränlaisten toimivien navigointimerkkien syöttämiseen, joiden ansiosta ohjelmia voidaan avata niille suunniteltujen kansioiden ulkopuolella, ja päästään käsiksi järjestelmän tietoihin.
 
 
 
