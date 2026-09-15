@@ -40,6 +40,7 @@ Seuraavaksi, Tools -> Options -> Network -> Server Certificates ja sieltä Save.
 Sitten lisäsin sertifikaatin firefoxiin. Firefoxissa asetuksista kohta Certificates, tällä View Certificates ja Importtataan meidän uusia äsken luoma sertifikaaattii firefoxiiin.
  
 
+<img width="616" height="322" alt="image" src="https://github.com/user-attachments/assets/d453c694-9fae-4ecf-8f53-983dc34582e1" />
 
 
 
