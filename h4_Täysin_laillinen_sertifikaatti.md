@@ -37,12 +37,12 @@ Seuraavaksi, Tools -> Options -> Network -> Server Certificates ja sieltä Save.
 <img width="713" height="344" alt="image" src="https://github.com/user-attachments/assets/3d5b206f-3346-4100-ad0b-f6a786180195" />
 
 
-Sitten lisäsin sertifikaatin firefoxiin. Firefoxissa asetuksista kohta Certificates, tällä View Certificates ja Importtataan meidän uusia äsken luoma sertifikaaattii firefoxiiin.
+Sitten lisäsin sertifikaatin firefoxiin. Firefoxissa asetuksista kohta Certificates, tällä View Certificates ja Importtataan meidän uusia äsken luoma sertifikaatti firefoxiiin.
  
 
 <img width="616" height="322" alt="image" src="https://github.com/user-attachments/assets/d453c694-9fae-4ecf-8f53-983dc34582e1" />
 
-
+Sitten muutetaan ohjeiden mukaan firefoxista proxy-asetuksia. Laiton hakuriviin about:config ja sitten network.proxy.allow_hijacking_localhost, vaihdoin sen arvoon True.
 
 
 
