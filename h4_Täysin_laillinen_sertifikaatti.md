@@ -59,6 +59,41 @@ Lisäsin ensiksi firefoxiin FoxyProxy Standard-lisäosan. Sitten avasin FoxyProx
 <img width="860" height="375" alt="h4" src="https://github.com/user-attachments/assets/a170c756-548d-4dba-81a3-92781ed342b5" />
 
 
+Asetin Proxylle sääntöjä (patterns), eli määritin osoitteet jotka haluan kulkevan ZAP:in läpi. Lisäsin osoitteet http://localhost*, https://portswigger.net*, sekä *web-security-academy.net*
+
+
+<img width="632" height="376" alt="h4-1" src="https://github.com/user-attachments/assets/35bcb56c-5cde-4a1c-a778-d0243df31a56" />
+
+
+Testasin toimivuuden. FoxyProxy "Proxy by patterns"- tilaan. Kävin wikipediassa, ja siitä ei tullut ZAP:iin mitään, localhostista tuli, toimii.
+
+
+<img width="401" height="342" alt="h4_2" src="https://github.com/user-attachments/assets/1728a561-c560-494e-a8e6-09abb09e2ff1" />
+
+
+
+## c) 
+
+### Reflected XSS into HTML context with nothing encoded
+
+Laitoin labrassa testisyötteen. Sain videoiden ja vinkkien kautta nähdä, että ZAP:ssä tarkastellen verkkopyyntöjä, kaikki hakutulokset menevät headeriin.
+
+<img width="583" height="238" alt="h4_3" src="https://github.com/user-attachments/assets/cd336f45-00e5-4ef9-a2af-ea7037b1aab8" />
+
+Valitettavasti en saanut vielä tehtävää suoritettua loppuun, siihen tuli jotain häikkää enkä ehtinyt saamaan sitä korjattua, yritän huomenna uudestaan kunhan kerkiän.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
