@@ -26,12 +26,13 @@
 
 ## a)
 
-Ensiksi asensin Kaliin OWASP ZAP:in
+Ensiksi asensin Kaliin OWASP ZAP:in ja käynnistin sen komennolla **zaproxy**.
 
 <img width="1252" height="613" alt="image" src="https://github.com/user-attachments/assets/f3f2afc2-2ff9-4407-bb92-75b323f55470" />
 
+Ekaksi ZAP:ssa ohjeiden mukaan muutin asetuksia, niin että kuvat näkyy. Tools -> Options -> Display -> Process images in HTTP requests/responses.
 
-
+Seuraavaksi, Tools -> Options -> Network -> Server Certificates ja sieltä Save.
  
 
 
