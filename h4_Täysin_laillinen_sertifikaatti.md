@@ -131,6 +131,8 @@ Verkkosovellus ei rajaa pyyntöä pelkkiin kuvakansioihin, vaan tottelee käsky�
 
 <img width="605" height="373" alt="image" src="https://github.com/user-attachments/assets/21f35086-095f-4fc9-a751-7b3fd8198dea" />
 
+<img width="196" height="217" alt="image" src="https://github.com/user-attachments/assets/a1f8d47f-ce6b-448f-adaa-9c29e0e55c62" />
+
 
 
 
