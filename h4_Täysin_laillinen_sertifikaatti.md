@@ -90,6 +90,9 @@ Tätä voidaan käyttää hyväksi lähettämällä syötteeseen koodia. Koska s
 
 Laitoin nyt syötteeseen <script>alert (1)</script>. Sivusto ajaa koodin suodattamatta sitä, ja alert ilmestyy etusivulle.
 
+<img width="532" height="171" alt="image" src="https://github.com/user-attachments/assets/a3e8c984-401a-49c3-95c3-e6ed257d6396" />
+
+
 
 
 
