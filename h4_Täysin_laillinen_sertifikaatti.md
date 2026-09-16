@@ -104,7 +104,7 @@ Avasin labran ja huomasin että se on hyvin samanlainen. Kuvauksessa sanottiin, 
 
 
 
-Tehtävä oli oikein, mutta alerttia ei tullut, ja syy tähän piilee siinä, että ekassa Reflected- nimisessä labrassa verkkosovellus ajaa koodin kerran ja tuo sen takaisin käyttäjälle (siksi sitä kutsutaan "Reflected"), mutta tässä tehtävässä se toimii eri tavalla. Kun jätetään julkinen kommentti johonkin verkkopalveluun, sen pitää tietenkin tallentua näkyviin sivustolle. Tämä meinaa, että verkkosovellus joutuu tallentamaan koodin tietokantaansa, eikä palauttamaan sitä käyttäjälle. Tämä siis tarkoittaa, että tästä hetkestä eteenpäin aina kun joku avaa sivun, sovellus ajaa sivun koodin jotta voi näyttää kommentit, ja ajaa samalla siis kommentissasi piilevän koodin, ja alert-ponnahdusikkuna ilmestyy sivulle.
+Tehtävä oli oikein, mutta alerttia ei tullut, ja syy tähän piilee siinä, että ekassa Reflected- nimisessä labrassa verkkosovellus ajaa koodin kerran ja tuo sen takaisin käyttäjälle (siksi sitä kutsutaan "Reflected"), mutta tässä tehtävässä se toimii eri tavalla. Kun jätetään julkinen kommentti johonkin verkkopalveluun, sen pitää tietenkin tallentua näkyviin sivustolle. Tämä meinaa, että verkkosovellus joutuu tallentamaan koodin tietokantaansa, eikä palauttamaan sitä käyttäjälle. Tästä johtuen kommentin jättämishetkestä eteenpäin aina kun joku avaa sivun, sovellus ajaa sivun koodin jotta voi näyttää kommentit, ja ajaa samalla siis kommentissasi piilevän koodin, ja alert-ponnahdusikkuna ilmestyy sivulle.
 
 
 
