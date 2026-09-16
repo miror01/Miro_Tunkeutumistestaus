@@ -159,6 +159,10 @@ Periaate on taas sama kuin aiemmissa. Sain selville, että kyseinen labra suodat
 Labrassa on haavoittuvuus siinä, että verkkosovellus ei taaskaan suodata dataa. Se käyttää käyttäjän syötettä suoraan eikä tarkista onko käyttäjällä oikeuksia nähdä dataa. Kävin ohjeiden mukaan Live-chatissa ja painoin sieltä view transcript, tämä loi minulle tekstitiedoston käydystä keskustelustamme, kävin ZAP:ssa tarkastamassa pyyntöä, ja muokkasin sitä taas requesterissa. Vaihdoin tiedoston numeroa, eli siis kun tiedosto oli 2.txt, vaihdoin ZAP:ssa sen 1.txt. Tämä näytti minulle toisen ihmisen keskustelun, ja samalla hänen salasanan. Kirjauduin niillä sisään ja labra meni läpi.
 
 
+<img width="632" height="245" alt="image" src="https://github.com/user-attachments/assets/7ad717ba-89d0-437d-9f16-f623bba499a9" />
+
+
+
 
 ## Lähteet)
 
