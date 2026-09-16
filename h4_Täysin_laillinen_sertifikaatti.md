@@ -129,6 +129,10 @@ Avasin tämän pyynnön ja muokkasin filename= arvoon kuvan sijasta ../../../etc
 Verkkosovellus ei rajaa pyyntöä pelkkiin kuvakansioihin, vaan tottelee käskyää, ja .. komennolla siis hyppää yhden ylemmäs hakemistorakenteessa. Tämän takia verkkosovellus meni aivan hakemiston juureen asti, ja lähti sieltä hakemaan salaisen /etc/passwd tiedoston sisältöä. Labra meni läpi ja huomattiin että sovellus on haavoittuvainen Path Traversalille. Käyttäjien syötteet tulee suodattaa ja tarkastaa sovelluksessa kunnolla.
 
 
+<img width="605" height="373" alt="image" src="https://github.com/user-attachments/assets/21f35086-095f-4fc9-a751-7b3fd8198dea" />
+
+
+
 
 
 
