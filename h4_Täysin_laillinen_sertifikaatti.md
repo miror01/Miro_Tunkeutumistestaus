@@ -100,6 +100,13 @@ Avasin labran ja huomasin että se on hyvin samanlainen. Kuvauksessa sanottiin, 
 <img width="434" height="286" alt="image" src="https://github.com/user-attachments/assets/ad97293a-6632-4c1c-be2a-5f8082d43c51" />
 
 
+<img width="511" height="180" alt="image" src="https://github.com/user-attachments/assets/44af3977-a6af-4517-85f0-414ba0445385" />
+
+
+
+Tehtävä oli oikein, mutta alerttia ei tullut, ja syy tähän piilee siinä, että
+
+
 
 
 
