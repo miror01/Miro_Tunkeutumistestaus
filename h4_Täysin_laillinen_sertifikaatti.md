@@ -80,10 +80,15 @@ Laitoin labrassa testisyötteen. Sain videoiden ja vinkkien kautta nähdä, ett�
 
 <img width="583" height="238" alt="h4_3" src="https://github.com/user-attachments/assets/cd336f45-00e5-4ef9-a2af-ea7037b1aab8" />
 
-Tämä tarkoittaa, että kaikki käyttäjän syötteet menevät suoraan osaksi sivun ajamaa koodia, ja tätä voidaan käyttää pahoihin tarkoituksiin. [PortSwiggerin Cross Site Scripting](https://portswigger.net/web-security/cross-site-scripting/preventing)- sivulta löysin, että normaalitapauksessa, ilman haavoittuvuuksia, verkkosovellus käsittelee syötteen ja enkoodaa sen turvalliseksi, ennen sen näyttämistä, jotta selain ei luule syötettä koodiksi.
+Tämä tarkoittaa, että kaikki käyttäjän syötteet menevät suoraan osaksi sivun ajamaa koodia, ja tätä voidaan käyttää pahoihin tarkoituksiin. [PortSwiggerin Cross Site Scripting](https://portswigger.net/web-security/cross-site-scripting/preventing)- sivulta löysin, että normaalitapauksessa, ilman haavoittuvuuksia, verkkosovellus käsittelee syötteen ja enkoodaa sen turvalliseksi ennen sen näyttämistä, jotta selain ei luule syötettä koodiksi.
 
 
 <img width="919" height="417" alt="image" src="https://github.com/user-attachments/assets/e9adaf79-3a13-4ea1-915c-7b8296e86ef8" />
+
+
+Tätä voidaan käyttää hyväksi lähettämällä syötteeseen koodia. Koska sitä ei tarkisteta labrassa kunnolla, se menee läpi sivustolle, ja sivu ajaa koodin.
+
+Laitoin nyt syötteeseen <script>alert (1)</script>. Sivusto ajaa koodin suodattamatta sitä, ja alert ilmestyy etusivulle.
 
 
 
