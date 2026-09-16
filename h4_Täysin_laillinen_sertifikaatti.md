@@ -88,9 +88,11 @@ Tämä tarkoittaa, että kaikki käyttäjän syötteet menevät suoraan osaksi s
 
 Tätä voidaan käyttää hyväksi lähettämällä syötteeseen koodia. Koska sitä ei tarkisteta labrassa kunnolla, se menee läpi sivustolle, ja sivu ajaa koodin.
 
-Laitoin nyt syötteeseen <script>alert (1)</script>. Sivusto ajaa koodin suodattamatta sitä, ja alert ilmestyy etusivulle.
+Laitoin nyt syötteeseen `<script>alert (1)</script>`. Sivusto ajaa koodin suodattamatta sitä, ja alert ilmestyy etusivulle.
 
 <img width="532" height="171" alt="image" src="https://github.com/user-attachments/assets/a3e8c984-401a-49c3-95c3-e6ed257d6396" />
+
+## d)
 
 
 
@@ -113,7 +115,11 @@ Laitoin nyt syötteeseen <script>alert (1)</script>. Sivusto ajaa koodin suodatt
 ## Lähteet)
 
 OWASP TOP10 2021 Broken Access Control: https://top10.owasp.org/2021/A01_2021-Broken_Access_Control/
+
 Terokarvinen.com https://terokarvinen.com/tunkeutumistestaus/#laksyt
+
 Cross-site scripting: https://portswigger.net/web-security/cross-site-scripting
+
 Path traversal: https://portswigger.net/web-security/file-path-traversal
+
 IDOR: https://portswigger.net/web-security/access-control/idor
