@@ -120,7 +120,7 @@ Tehtävässä avasin labran, ja menin tarkistamaan ZAP:ia, etsin pyynnön, jossa
 <img width="524" height="119" alt="image" src="https://github.com/user-attachments/assets/67a985a3-74b4-4247-b060-ec4a53210e11" />
 
 
-Avasin tämän pyynnön ja muokkasin filename= arvoon kuvan sijasta ../../../etc/passwd. 
+Avasin tämän pyynnön ja muokkasin filename= arvoon kuvan sijasta `../../../etc/passwd`. 
 
 
 <img width="462" height="242" alt="image" src="https://github.com/user-attachments/assets/dc0fb47d-1bc8-4adf-973c-2a937010e39f" />
@@ -135,9 +135,9 @@ Verkkosovellus ei rajaa pyyntöä pelkkiin kuvakansioihin, vaan tottelee käsky�
 
 
 
+## g)
 
-
-
+Tehtävä oli varsin samanlainen, kuvauksesta sain selville, että labrassa on suhteellisen polun käyttö estetty, joten käytin absoluuttista. Kaikki aivan samalla tavalla kuin äsken, mutta jätin polusta  `../../../` pois. Eli siis vain `/etc/passwd`. Passwd-tiedosto tuli taas näkyviin ja labra on suoritettu.
 
 
 
