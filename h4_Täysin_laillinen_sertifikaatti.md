@@ -118,6 +118,7 @@ Tehtävässä avasin labran, ja menin tarkistamaan ZAP:ia.
 
 
 
+<img width="529" height="145" alt="image" src="https://github.com/user-attachments/assets/89012a3a-39b6-4c60-8b94-194295ee0038" />
 
 
 
