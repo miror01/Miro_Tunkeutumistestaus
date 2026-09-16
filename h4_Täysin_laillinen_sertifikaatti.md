@@ -117,8 +117,8 @@ Kuten aiemmissa labroissa näimme, näiden kahden metodin avulla saadaan verkkos
 Tehtävässä avasin labran, ja menin tarkistamaan ZAP:ia. 
 
 
+<img width="524" height="119" alt="image" src="https://github.com/user-attachments/assets/67a985a3-74b4-4247-b060-ec4a53210e11" />
 
-<img width="529" height="145" alt="image" src="https://github.com/user-attachments/assets/89012a3a-39b6-4c60-8b94-194295ee0038" />
 
 
 
