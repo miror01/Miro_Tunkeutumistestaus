@@ -97,6 +97,7 @@ Laitoin nyt syötteeseen `<script>alert (1)</script>`. Sivusto ajaa koodin suoda
 Avasin labran ja huomasin että se on hyvin samanlainen. Kuvauksessa sanottiin, että tehtävä on muuten aikalailla sama, mutta nyt hyödynnetään kommenttikenttää. Menin labran blogissa postaukseen johon voi kommentoida, ja käytin kommenttina samaa `<script>alert (1)</script>` kuin äskenkin.
 
 
+<img width="434" height="286" alt="image" src="https://github.com/user-attachments/assets/ad97293a-6632-4c1c-be2a-5f8082d43c51" />
 
 
 
