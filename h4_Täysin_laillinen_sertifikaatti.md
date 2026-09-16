@@ -146,6 +146,13 @@ Tehtävä oli varsin samanlainen, kuvauksesta sain selville, että labrassa on s
 <img width="464" height="212" alt="image" src="https://github.com/user-attachments/assets/c4e842f3-baf8-4618-b388-c0c7cb6a7b73" />
 
 
+## h)
+
+Periaate on taas sama kuin aiemmissa. Sain selville, että kyseinen labra suodattaa kyllä polun läpikäyntimerkkejä, kuten ../, mutta se tekee sen vain kerran. Tämä voidaan kiertää kirjottamalla polun ympärille polun toisesti. Eli kun polku on ../, niin kirjoitetaan ....//. Suodatin poistaa keskeltä "../" ja jäljelle jää toinen "../". Tehdään tämä kolmesti, niinkuin aiemmin, ja tadaa, jäljelle jää taas ../../../etc/passwd.
+
+
+
+
 
 
 
