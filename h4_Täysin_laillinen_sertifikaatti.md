@@ -151,6 +151,7 @@ Tehtävä oli varsin samanlainen, kuvauksesta sain selville, että labrassa on s
 Periaate on taas sama kuin aiemmissa. Sain selville, että kyseinen labra suodattaa kyllä polun läpikäyntimerkkejä, kuten ../, mutta se tekee sen vain kerran. Tämä voidaan kiertää kirjottamalla polun ympärille polun toisesti. Eli kun polku on ../, niin kirjoitetaan ....//. Suodatin poistaa keskeltä "../" ja jäljelle jää toinen "../". Tehdään tämä kolmesti, niinkuin aiemmin, ja tadaa, jäljelle jää taas ../../../etc/passwd.
 
 
+<img width="640" height="259" alt="image" src="https://github.com/user-attachments/assets/66bf55e9-6406-4c2c-afda-12cdbf5b93f9" />
 
 
 
