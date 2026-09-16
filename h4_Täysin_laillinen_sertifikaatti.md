@@ -140,6 +140,13 @@ Verkkosovellus ei rajaa pyyntöä pelkkiin kuvakansioihin, vaan tottelee käsky�
 Tehtävä oli varsin samanlainen, kuvauksesta sain selville, että labrassa on suhteellisen polun käyttö estetty, joten käytin absoluuttista. Kaikki aivan samalla tavalla kuin äsken, mutta jätin polusta  `../../../` pois. Eli siis vain `/etc/passwd`. Passwd-tiedosto tuli taas näkyviin ja labra on suoritettu.
 
 
+<img width="640" height="271" alt="image" src="https://github.com/user-attachments/assets/58dd00bf-a114-4e62-a9ed-b0d7b89140f8" />
+
+
+<img width="464" height="212" alt="image" src="https://github.com/user-attachments/assets/c4e842f3-baf8-4618-b388-c0c7cb6a7b73" />
+
+
+
 
 
 ## Lähteet)
