@@ -72,7 +72,7 @@ Testasin toimivuuden. FoxyProxy "Proxy by patterns"- tilaan. Kävin wikipediassa
 
 
 
-## c) 
+## c) Reflected XSS into HTML context with nothing encoded
 
 ### Reflected XSS into HTML context with nothing encoded
 
@@ -92,7 +92,9 @@ Laitoin nyt syötteeseen `<script>alert (1)</script>`. Sivusto ajaa koodin suoda
 
 <img width="532" height="171" alt="image" src="https://github.com/user-attachments/assets/a3e8c984-401a-49c3-95c3-e6ed257d6396" />
 
-## d)
+## d) Stored XSS into HTML context with nothing encoded
+
+Avasin labran ja huomasin että se on hyvin samanlainen. Kuvauksessa sanottiin, että tehtävä on muuten aikalailla sama, mutta nyt hyödynnetään kommenttikenttää. Menin labran blogissa postaukseen johon voi kommentoida, ja käytin kommenttina samaa `<script>alert (1)</script>` kuin äskenkin.
 
 
 
