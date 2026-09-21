@@ -72,6 +72,8 @@ Näytetään tulos käyttämällä aiemmin mainittua `--show` parametriä, eli `
 
 Alotin asentamalla kaikki John The Ripperiin vaadittavat ohjelmistot. Ohjeista löytyvä `zlib-gst` ei enää toimi, joten jätin sen pois. 
 
+<img width="566" height="337" alt="image" src="https://github.com/user-attachments/assets/a0383a8f-24f7-4fb8-974f-b8822ecb7007" />
+
 
 
 
