@@ -59,5 +59,8 @@ Komento ei toimi. Koska teen harjoitusta virtualboxissa, toteutuksessa tulee mut
 
 Ajoin komennon `hashcat -m 0 tiiviste.txt /usr/share/wordlists/rockyou.txt` uudestaan, ja tällä kertaa toimi. Salasana "summer" on niin helppo kohde että suorituskyky ei tässä harjoitustehtävässä vaikuta niin paljoa että haittaisi käyttää CPU:ta.
 
+<img width="472" height="340" alt="image" src="https://github.com/user-attachments/assets/72f2faa1-db09-4893-95a9-765be92bb0ae" />
+
+
 
 
