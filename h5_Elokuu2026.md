@@ -103,4 +103,9 @@ Sitten vielä koitin unzip uusiksi ja luin SECRET.md -tiedoston.
 
 Valitsin formaatiksi 7z. Tein ekana echo-komennolla uuden tiedoston, ja salasanasuojasin sen 7z:llä.
 
+<img width="369" height="196" alt="image" src="https://github.com/user-attachments/assets/a6050acc-33e8-4f6a-918b-1d0e8ed10f9c" />
+
+Loin sille salasanan `sunshine`, joka löytyy rockyou-sanakirjasta.
+
+
 
