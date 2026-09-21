@@ -85,3 +85,4 @@ Suorittamiseen meni pari minuuttia. Seuraavaksi siirryn hakemistoon run komennol
 
 Seuraavaksi latasin tero.zip- testitiedoston ja tarkistin että se tuli.
 
+<img width="619" height="175" alt="image" src="https://github.com/user-attachments/assets/e8d772c2-b9db-4518-9514-daf55b4b1dfb" />
