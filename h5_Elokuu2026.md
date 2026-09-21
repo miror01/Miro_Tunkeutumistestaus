@@ -19,5 +19,11 @@
 
 ## a) Asenna Hashcat ja testaa sen toiminta murtamalla esimerkkisalasana.
 
-Ensiksi asennetaan hashcat Kaliin. Komentona `sudo apt update` ja `sudo apt install hashcat`
+Ensiksi asennetaan hashcat Kaliin. Komentona `sudo apt update` ja `sudo apt install hashcat`.
+
+Seuraavaksi testasin hascatin toiminnan murtamalla testisalanan. Käytin salasanana jo aiemmin artikkelissa murrettua sanaa `summer`. Tein salasanasta MD5-tiivisteen komennolla `echo -n "summer" | md5sum`.
+
+<img width="159" height="116" alt="h5_1" src="https://github.com/user-attachments/assets/525dedd2-edfc-446c-b20f-d851c2934425" />
+
+Komennossa on tärkeää käyttää parametriä `-n`, sillä se estää rivinvaihdon lisäyksen sanan loppuun. Käytännössä ilman parametriä, echo-komento lisäisi itse sanan perään rivinvaihtomerkin niin, että tiivistettävä teksti/data olisi oikeasti `summer\`, ja ei täten enää toimisi tarkoitukseen, kun tiiviste muuttuu aivan täysin.
 
