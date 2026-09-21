@@ -23,7 +23,7 @@ Ensiksi asennetaan hashcat Kaliin. Komentona `sudo apt update` ja `sudo apt inst
 
 Seuraavaksi testasin hascatin toiminnan murtamalla testisalanan. Käytin salasanana jo aiemmin artikkelissa murrettua sanaa `summer`. Tein salasanasta MD5-tiivisteen joka tulostuu uuteen tekstitiedostoon komennolla `echo -n "summer" | md5sum > tiiviste.txt`.
 
-<img width="500" alt="h5_2" src="https://github.com/user-attachments/assets/b1ccee87-4d83-4f72-92aa-a19985ffc273" />
+<img width="1000" alt="h5_2" src="https://github.com/user-attachments/assets/b1ccee87-4d83-4f72-92aa-a19985ffc273" />
 
 
 Komennossa on tärkeää käyttää parametriä `-n`, sillä se estää rivinvaihdon lisäyksen sanan loppuun. Käytännössä ilman parametriä, echo-komento lisäisi itse sanan perään rivinvaihtomerkin niin, että tiivistettävä teksti/data olisi oikeasti `summer\n`, ja ei täten enää toimisi tarkoitukseen, kun tiiviste muuttuu aivan täysin.
@@ -31,18 +31,18 @@ Komennossa on tärkeää käyttää parametriä `-n`, sillä se estää rivinvai
 
 Tarkistin tiivisteen cat-komennolla. md5sum lisää tiivisteen perään välilyöntejä ja -merkin, jotka ovat myös tiivisteeseen vaikuttavaa tietoa, joten poistin ne nanolla.
 
-<img width="500" alt="h5_3" src="https://github.com/user-attachments/assets/1055394b-34ae-4ca1-a170-ca635986f4bb" />
+<img width="1000" alt="h5_3" src="https://github.com/user-attachments/assets/1055394b-34ae-4ca1-a170-ca635986f4bb" />
 
 
 Tarkistin `hashid`- komentoa tarkistaakseni todennäköisimmät tiivistetyypit tiivisteelle. Tiedän itse, että tyyppinä on MD5, kun juuri itse loin tiivisteen, mutta tällä komennolla siitä otettaisiin tositilanteessa jossa tiiviste ei ole itse tehty, selvää.
 
 
-<img width="500" alt="h5_4" src="https://github.com/user-attachments/assets/cc0e3873-e998-4e94-89b1-c9467d8fbc6b" />
+<img width="1000" alt="h5_4" src="https://github.com/user-attachments/assets/cc0e3873-e998-4e94-89b1-c9467d8fbc6b" />
 
 
 Valmiissa Kalissa on yleensä rockyou.txt valmiina, ja sen voi tarkistaa komennolla `ls usr/share/wordlists`. löysin sieltä `rockyou.txt.gz`, joka meinaa, että tiedosto löytyy, mutta pakattuna. Ekana purin sen komennolla `sudo gzip -d`.
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/e3ef50a8-46b8-47af-9bf3-638aa201516a" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/e3ef50a8-46b8-47af-9bf3-638aa201516a" />
 
 On aika ottaa hashcat käyttöön. Komentona toimii `hashcat -m 0 tiiviste.txt /usr/share/wordlists/rockyou.txt`. 
 
@@ -53,18 +53,18 @@ Komennossa on 4 osaa:
 * `/usr/share/wordlists/rockyou.txt` on sanakirja, jota tässä tehtävässä haluamme käyttää.
 
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/442916c2-386c-4e5b-bfad-72dfd16e7e28" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/442916c2-386c-4e5b-bfad-72dfd16e7e28" />
 
 Komento ei toimi. Koska teen harjoitusta virtualboxissa, toteutuksessa tulee mutkia matkaan siinä miten hashcat haluaisin käyttää näyönohjainta prosessorin sijaan, muttei pysty. Korjasin seuraavaksi hashcatin niin, että se pystyy käyttää prosessoria harjoitukseen. Komentona toimi `sudo apt install pocl-opencl-icd`.
 
 Ajoin komennon `hashcat -m 0 tiiviste.txt /usr/share/wordlists/rockyou.txt` uudestaan, ja tällä kertaa toimi. Salasana "summer" on niin helppo kohde että suorituskyky ei tässä harjoitustehtävässä vaikuta niin paljoa että haittaisi käyttää CPU:ta.
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/72f2faa1-db09-4893-95a9-765be92bb0ae" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/72f2faa1-db09-4893-95a9-765be92bb0ae" />
 
 
 Näytetään tulos käyttämällä aiemmin mainittua `--show` parametriä, eli `hashcat -m 0 tiiviste.txt --show`. Kuten näkyy, tiiviste sekä salasana ovat selvillä.
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/30b44e5d-a443-4597-ae41-f5bc12e601c2" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/30b44e5d-a443-4597-ae41-f5bc12e601c2" />
 
 
 
@@ -72,38 +72,38 @@ Näytetään tulos käyttämällä aiemmin mainittua `--show` parametriä, eli `
 
 Alotin asentamalla kaikki John The Ripperiin vaadittavat ohjelmistot. Ohjeista löytyvä `zlib-gst` ei enää toimi, joten jätin sen pois. 
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/a0383a8f-24f7-4fb8-974f-b8822ecb7007" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/a0383a8f-24f7-4fb8-974f-b8822ecb7007" />
 
 Seuraavaksi kloonasin JtR-Jumbo-version Openwallin repositoriosta. Komentona `git clone https://github.com/openwall/john.git`. Ja siirryin `cd`-komennolla src-hakemistoon. Sueraavaksi komento `./configure` ja JtR on konfiguroitu. Vielä viimeiseksi komennoksi `make -s clean && make -sj2` ja se pitäisi hetken kasaamisen jälkeen olla valmis.
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/6f95e464-19e3-4d2d-bd0a-90210977cde4" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/6f95e464-19e3-4d2d-bd0a-90210977cde4" />
 
 Suorittamiseen meni pari minuuttia. Seuraavaksi siirryn hakemistoon run komennolla `cd ../run` kirjoitin komennon `./john` joka käynnisti JtR:n.
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/abca5ed6-2aea-4a5d-a353-009fbd2868ca" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/abca5ed6-2aea-4a5d-a353-009fbd2868ca" />
 
 
 Seuraavaksi latasin tero.zip- testitiedoston ja tarkistin että se tuli.
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/e8d772c2-b9db-4518-9514-daf55b4b1dfb" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/e8d772c2-b9db-4518-9514-daf55b4b1dfb" />
 
 Kokeilin avata sen ja se oli tietenkin salasanasuojattu. Alotin murtamisen tekemällä ZIP:lle tiivisteen komennolla `./zip2john tero.zip > tero.zip.hash`. Annoin tiivisteen JtR:lle komennolla `./john tero.zip.hash`
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/371f36f5-2126-4cfe-bced-6b2efd4afc66" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/371f36f5-2126-4cfe-bced-6b2efd4afc66" />
 
 Tiiviste saatiin murrettua onnistuneesti ja salasanaksi paljastui `butterfly`.
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/1cc7910f-ca36-4885-9408-71b8b7ae282a" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/1cc7910f-ca36-4885-9408-71b8b7ae282a" />
 
 Sitten vielä koitin unzip uusiksi ja luin SECRET.md -tiedoston.
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/a1edf8e8-0e6e-4848-85ff-6e42b16ca7ab" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/a1edf8e8-0e6e-4848-85ff-6e42b16ca7ab" />
 
 ## e) Tiedosto. Tee itse tai etsi verkosta jokin salakirjoitettu tiedosto, jonka saat auki. Murra sen salaus.
 
 Valitsin formaatiksi 7z. Tein ekana echo-komennolla uuden tiedoston, ja salasanasuojasin sen 7z:llä.
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/a6050acc-33e8-4f6a-918b-1d0e8ed10f9c" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/a6050acc-33e8-4f6a-918b-1d0e8ed10f9c" />
 
 Loin sille salasanan `sunshine`, joka löytyy rockyou-sanakirjasta.
 
