@@ -62,5 +62,8 @@ Ajoin komennon `hashcat -m 0 tiiviste.txt /usr/share/wordlists/rockyou.txt` uude
 <img width="472" height="340" alt="image" src="https://github.com/user-attachments/assets/72f2faa1-db09-4893-95a9-765be92bb0ae" />
 
 
+Näytetään tulos käyttämällä aiemmin mainittua `--show` parametriä, eli `hashcat -m 0 tiiviste.txt --show`. Kuten näkyy, tiiviste sekä salasana ovat selvillä.
+
+
 
 
