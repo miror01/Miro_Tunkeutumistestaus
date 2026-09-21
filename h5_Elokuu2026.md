@@ -40,4 +40,7 @@ Tarkistin `hashid`- komentoa tarkistaakseni todennäköisimmät tiivistetyypit t
 <img width="288" height="193" alt="h5_4" src="https://github.com/user-attachments/assets/cc0e3873-e998-4e94-89b1-c9467d8fbc6b" />
 
 
+Valmiissa Kalissa on yleensä rockyou.txt valmiina, ja sen voi tarkistaa komennolla `ls usr/share/wordlists`. löysin sieltä `rockyou.txt.gz`, joka meinaa, että tiedosto löytyy, mutta pakattuna. Ekana purin sen.
+
+
 
