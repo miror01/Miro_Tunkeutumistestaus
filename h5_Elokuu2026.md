@@ -83,5 +83,5 @@ Suorittamiseen meni pari minuuttia. Seuraavaksi siirryn hakemistoon run komennol
 <img width="467" height="81" alt="image" src="https://github.com/user-attachments/assets/abca5ed6-2aea-4a5d-a353-009fbd2868ca" />
 
 
-
+Seuraavaksi latasin tero.zip- testitiedoston ja tarkistin että se tuli.
 
