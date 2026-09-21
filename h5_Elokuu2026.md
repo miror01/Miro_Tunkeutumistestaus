@@ -163,6 +163,7 @@ Ajoin komennon uudestaan lisäparametrillä `-r /usr/share/hashcat/rules/best66.
 
 ## Lähteet
 
+Karvinen 2026 Tunkeutumistestaus: https://terokarvinen.com/tunkeutumistestaus/#h5-elokuu2026
 Karvinen 2022 Cracking Passwords with Hashcat: https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
 Karvinen 2023 Crack File Password With John: https://terokarvinen.com/2023/crack-file-password-with-john/
 Openwall John The Ripper: https://github.com/openwall/john
