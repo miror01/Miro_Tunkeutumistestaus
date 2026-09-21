@@ -89,21 +89,21 @@ Seuraavaksi latasin tero.zip- testitiedoston ja tarkistin että se tuli.
 
 Kokeilin avata sen ja se oli tietenkin salasanasuojattu. Alotin murtamisen tekemällä ZIP:lle tiivisteen komennolla `./zip2john tero.zip > tero.zip.hash`. Annoin tiivisteen JtR:lle komennolla `./john tero.zip.hash`
 
-<img width="638" height="215" alt="image" src="https://github.com/user-attachments/assets/371f36f5-2126-4cfe-bced-6b2efd4afc66" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/371f36f5-2126-4cfe-bced-6b2efd4afc66" />
 
 Tiiviste saatiin murrettua onnistuneesti ja salasanaksi paljastui `butterfly`.
 
-<img width="460" height="227" alt="image" src="https://github.com/user-attachments/assets/1cc7910f-ca36-4885-9408-71b8b7ae282a" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/1cc7910f-ca36-4885-9408-71b8b7ae282a" />
 
 Sitten vielä koitin unzip uusiksi ja luin SECRET.md -tiedoston.
 
-<img width="404" height="220" alt="image" src="https://github.com/user-attachments/assets/a1edf8e8-0e6e-4848-85ff-6e42b16ca7ab" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/a1edf8e8-0e6e-4848-85ff-6e42b16ca7ab" />
 
 ## e) Tiedosto. Tee itse tai etsi verkosta jokin salakirjoitettu tiedosto, jonka saat auki. Murra sen salaus.
 
 Valitsin formaatiksi 7z. Tein ekana echo-komennolla uuden tiedoston, ja salasanasuojasin sen 7z:llä.
 
-<img width="369" height="196" alt="image" src="https://github.com/user-attachments/assets/a6050acc-33e8-4f6a-918b-1d0e8ed10f9c" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/a6050acc-33e8-4f6a-918b-1d0e8ed10f9c" />
 
 Loin sille salasanan `sunshine`, joka löytyy rockyou-sanakirjasta.
 
@@ -112,18 +112,18 @@ Poistin alkuperäisen suojaamattoman tiedoston `rm Miro.txt`. Sitten muunsin 7z.
 Seuraavaksi aloin murtamaan salasanaa. Käytin JtR:ää ja sanalistana rockyou.txt:tä, ja salasana saatiin hyvin nopeasti selville.
 
 
-<img width="589" height="182" alt="image" src="https://github.com/user-attachments/assets/b3df477f-aaf7-4d00-b20f-9ed239b8cee5" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/b3df477f-aaf7-4d00-b20f-9ed239b8cee5" />
 
 Purin tiedoston vielä sanasanaa käyttäen ja se onnistui. 
 
-<img width="404" height="233" alt="image" src="https://github.com/user-attachments/assets/549f6349-463b-4eb7-af33-5e34bca986c3" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/549f6349-463b-4eb7-af33-5e34bca986c3" />
 
 
 ## f) Tiiviste. Tee itse tai etsi verkosta salasanan tiiviste, jonka saat murrettua.
 
 Käytin aiemmin MD5:tä, joten kokeilen nyt SHA-256-tiivistemuotoa. Tein ekana samalla tavalla kun ekassa tehtävässä SHA-256-tiivisteen käyttämällä sanaa joka sisältyy rockyou.txt:ssä. valitsin salasanaksi `mustang`. Samalla tavalla kun aiemmin, käytin nanoa poistamaan välilyönnit ja viivat.
 
-<img width="537" height="107" alt="image" src="https://github.com/user-attachments/assets/d206f4de-3fe8-4813-8352-920e0ef3d509" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/d206f4de-3fe8-4813-8352-920e0ef3d509" />
 
 `hashid`- komennolla taas selville tyyppi, ja SHA256:n hashcat numeroksi näyttäytyy 1400. 
 
@@ -133,14 +133,14 @@ Seuraavaksi laitoin komennon `hashcat -m 1400 sha256.txt /usr/share/wordlists/ro
 
 Odotin että hascat suorittaa, ja tulokseksi tuli taas `Cracked`. Komento `hashcat -m 1400 sha256.txt --show` ja tuloksessa näkyy `mustang`.
 
-<img width="371" height="233" alt="image" src="https://github.com/user-attachments/assets/9203c502-c625-4151-ba75-9361ac179588" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/9203c502-c625-4151-ba75-9361ac179588" />
 
 
 ## g) Demonstroi oman sanakirjan tekemistä Hashcatille tai Johnille.
 
 Aloitin tehtävän luomalla sanakirjan komennolla `nano mironsanakirja.txt`, lisäsin sinne sanoja omille riveille ja tallensin. Nyt sanakirjaa voidaan käyttää samalla tavalla kuin rockyou.txt:tä aiemmissa tehtävissä.
 
-<img width="179" height="152" alt="image" src="https://github.com/user-attachments/assets/6e23b6eb-5441-4893-9808-303717548456" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/6e23b6eb-5441-4893-9808-303717548456" />
 
 
 ## h) Hash rules. Näytä esimerkki HashCatin sääntöjen käytöstä (rules).
@@ -157,7 +157,7 @@ Laitoin komennoksi `hashcat -m 1400 rule66tiiviste.txt mironsanakirja.txt`. Eli 
 
 Ajoin komennon uudestaan lisäparametrillä `-r /usr/share/hashcat/rules/best66.rule`, ja tilaksi tuli `Cracked`. Eli sanakirjaa käytiin läpi uudella säännöllä, ja se onnistui löytämään oikean salasanan.
 
-<img width="437" height="335" alt="image" src="https://github.com/user-attachments/assets/51bdaae8-aaad-45f9-8a89-f46764a7c102" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/51bdaae8-aaad-45f9-8a89-f46764a7c102" />
 
 
 
