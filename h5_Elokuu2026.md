@@ -74,6 +74,8 @@ Alotin asentamalla kaikki John The Ripperiin vaadittavat ohjelmistot. Ohjeista l
 
 <img width="566" height="337" alt="image" src="https://github.com/user-attachments/assets/a0383a8f-24f7-4fb8-974f-b8822ecb7007" />
 
+Seuraavaksi kloonasin JtR-Jumbo-version Openwallin repositoriosta. Komentona `git clone https://github.com/openwall/john.git`. Ja siirryin `cd`-komennolla src-hakemistoon. Sueraavaksi komento `./configure` ja JtR on konfiguroitu. Vielä viimeiseksi komennoksi `make -s clean && make -sj2` ja se pitäisi olla kasattu.
+
 
 
 
