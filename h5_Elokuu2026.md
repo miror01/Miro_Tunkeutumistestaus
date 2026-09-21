@@ -13,5 +13,7 @@
 
 ### Karvinen 2023: Crack File Password With John
 * Kuten käyttäjätunnukset, myös monet tiedostomuodot, kuten 7zip, ZIP, ja PDF voidaan suojata salasanoilla.
-* Tiedostojen salasanojen murtamiseen löytyy ohjelmia kuten John The Ripper, joka hyödyntää myös salasanan selvittämisessä sanakirjoja
-* John The Ripper vaatii lukuisia ohjelmistoja toimiakseen, komento kalissa näyttääkin suurinpiirtein tältä `sudo apt-get -y install micro bash-completion git build-essential libssl-dev zlib1g zlib1g-dev zlib-gst libbz2-1.0 libbz2-dev atool zip wget`
+* Tiedostojen salasanojen murtamiseen löytyy ohjelmia kuten John The Ripper, joka hyödyntää myös salasanan selvittämisessä sanakirjoja.
+* John The Ripper vaatii lukuisia ohjelmistoja toimiakseen, komento kalissa näyttääkin suurinpiirtein tältä: `sudo apt-get -y install micro bash-completion git build-essential libssl-dev zlib1g zlib1g-dev zlib-gst libbz2-1.0 libbz2-dev atool zip wget`.
+* Artikkelissa asennetaan John The Ripperin laajennettu Jumbo-versio. Se tukee useampia tiiviste- ja tiedostotyyppejä, kuten salattuja  7zip, ZIP, ja PDF- tiedostoja.
+
