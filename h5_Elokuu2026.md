@@ -101,5 +101,6 @@ Sitten vielä koitin unzip uusiksi ja luin SECRET.md -tiedoston.
 
 ## e) Tiedosto. Tee itse tai etsi verkosta jokin salakirjoitettu tiedosto, jonka saat auki. Murra sen salaus.
 
+Valitsin formaatiksi 7z. Tein ekana echo-komennolla uuden tiedoston, ja salasanasuojasin sen 7z:llä.
 
 
