@@ -123,7 +123,7 @@ Purin tiedoston vielä sanasanaa käyttäen ja se onnistui.
 
 Käytin aiemmin MD5:tä, joten kokeilen nyt SHA-256-tiivistemuotoa. Tein ekana samalla tavalla kun ekassa tehtävässä SHA-256-tiivisteen käyttämällä sanaa joka sisältyy rockyou.txt:ssä. valitsin salasanaksi `mustang`. Samalla tavalla kun aiemmin, käytin nanoa poistamaan välilyönnit ja viivat.
 
-<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/d206f4de-3fe8-4813-8352-920e0ef3d509" />
+<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/d206f4de-3fe8-4813-8352-920e0ef3d509" />
 
 `hashid`- komennolla taas selville tyyppi, ja SHA256:n hashcat numeroksi näyttäytyy 1400. 
 
