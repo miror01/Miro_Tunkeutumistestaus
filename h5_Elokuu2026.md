@@ -145,8 +145,14 @@ Aloitin tehtävän luomalla sanakirjan komennolla `nano mironsanakirja.txt`, lis
 
 ## h) Hash rules. Näytä esimerkki HashCatin sääntöjen käytöstä (rules).
 
-Ekana tarkistin hashcatin sääntölistaa. Komentona `ls /usr/share/haascat/rules/` ekana oli best66.rule. Ajoin sen komennolla `hashcat --stdout mironsanakirja.txt -r /usr/share/hashcat/rules/best66.rule`. Tuloste oli valtava, joten suoritin komennon uudestaan, ja lisäsin perään ` | grep -i kissa`, joka on yksi sanakirjani sana.
-
+Ekana tarkistin hashcatin sääntölistaa. Komentona `ls /usr/share/hashcat/rules/` ekana oli best66.rule. Ajoin sen komennolla `hashcat --stdout mironsanakirja.txt -r /usr/share/hashcat/rules/best66.rule`. Tuloste oli valtava, joten suoritin komennon uudestaan, ja lisäsin perään ` | grep -i kissa`, joka on yksi sanakirjani sana.
 
 <img width="523" height="341" alt="image" src="https://github.com/user-attachments/assets/fdc4cbfa-d2bc-4e19-8a11-e53077b5ffd5" />
 
+rule66 näyttäisi ottavan sanani ja kokeilevan sen kanssa yleisimpiä yhdisteitä mitä voi keksiä. 
+
+Kokeilin toimiiko tämä.  Otin yhden rule66-tulosteista, `kissa123`, ja tein siitä uuden tiedoston. Tiedoston nimi on `rule66tiiviste.txt`.
+
+Laitoin komennoksi `hashcat -m 1400 rule66tiiviste.txt mironsanakirja.txt`. Eli etsin sanaa kissa123 sanakirjastani jossa sitä ei (enää) ole. Tilaksi tuli exhausted. 
+
+Ajoin komennon uudestaan lisäparametrillä `-r /usr/share/hashcat/rules/best66.rule`, ja tilaksi tuli `Cracked`. Eli sanakirjaa käytiin läpi uudella säännöllä, ja se onnistui löytämään oikean salasanan.
