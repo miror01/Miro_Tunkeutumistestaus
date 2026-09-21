@@ -112,7 +112,7 @@ Poistin alkuperäisen suojaamattoman tiedoston `rm Miro.txt`. Sitten muunsin 7z.
 Seuraavaksi aloin murtamaan salasanaa. Käytin JtR:ää ja sanalistana rockyou.txt:tä, ja salasana saatiin hyvin nopeasti selville.
 
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/b3df477f-aaf7-4d00-b20f-9ed239b8cee5" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/b3df477f-aaf7-4d00-b20f-9ed239b8cee5" />
 
 Purin tiedoston vielä sanasanaa käyttäen ja se onnistui. 
 
