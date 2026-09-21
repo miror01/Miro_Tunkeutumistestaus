@@ -158,3 +158,11 @@ Laitoin komennoksi `hashcat -m 1400 rule66tiiviste.txt mironsanakirja.txt`. Eli 
 Ajoin komennon uudestaan lisäparametrillä `-r /usr/share/hashcat/rules/best66.rule`, ja tilaksi tuli `Cracked`. Eli sanakirjaa käytiin läpi uudella säännöllä, ja se onnistui löytämään oikean salasanan.
 
 <img width="437" height="335" alt="image" src="https://github.com/user-attachments/assets/51bdaae8-aaad-45f9-8a89-f46764a7c102" />
+
+
+
+## Lähteet
+
+Karvinen 2022 Cracking Passwords with Hashcat: https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
+Karvinen 2023 Crack File Password With John: https://terokarvinen.com/2023/crack-file-password-with-john/
+Openwall John The Ripper: https://github.com/openwall/john
