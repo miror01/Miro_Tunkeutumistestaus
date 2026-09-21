@@ -109,5 +109,7 @@ Loin sille salasanan `sunshine`, joka löytyy rockyou-sanakirjasta.
 
 Poistin alkuperäisen suojaamattoman tiedoston `rm Miro.txt`. Sitten muunsin 7z.tiedoston muotoon jonka JtR ymmärtää. Komentona `./7z2john.pl Miro.7z > Miro.hash`. Tarkistin tiivisteen komennolla `cat Miro.hash`.
 
+Seuraavaksi aloin murtamaan salasanaa. Käytin JtR:ää ja sanalistana rockyou.txt:tä, ja salasana saatiin hyvin nopeasti selville.
+
 
 
