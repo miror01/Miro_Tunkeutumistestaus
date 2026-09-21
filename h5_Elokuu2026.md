@@ -136,3 +136,8 @@ Odotin että hascat suorittaa, ja tulokseksi tuli taas `Cracked`. Komento `hashc
 <img width="371" height="233" alt="image" src="https://github.com/user-attachments/assets/9203c502-c625-4151-ba75-9361ac179588" />
 
 
+## g) Demonstroi oman sanakirjan tekemistä Hashcatille tai Johnille.
+
+Aloitin tehtävän luomalla sanakirjan komennolla `nano mironsanakirja.txt`, lisäsin sinne sanoja omille riveille ja tallensin. Nyt sanakirjaa voidaan käyttää samalla tavalla kuin rockyou.txt:tä aiemmissa tehtävissä.
+
+
