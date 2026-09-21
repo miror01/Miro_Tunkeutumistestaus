@@ -8,4 +8,4 @@
 * Jotta tiiviste voidaan murtaa, täytyy tietää tiivisteen tyyppi. Tiivistetyypin selvittämistä varten löytyy ohjelmia kuten `hashid`.
 * Jos salasana murretaan onnistuneesti, hashcat palauttaa tilaksi: `Solved`. Tämän jälkeen salasanan voi tallentaa tekstitiedostoon tai näyttää komennolla `--show`. Jos salasanaa ei löydy, hashcat palauttaa vastaukseksi `Exhausted`.
 
-Oma ajatus: Onneksi salasanan murretuksi tuleminen ei ole realistinen uhka, jos salasanan monipuolisuuteen on nähty vähänkään vaivaa eikä se ole tyyliä "kissa123".
+Oma ajatus: Onneksi ei ole realistinen uhka, että oma salasana tulisi murretuksi, jos salasanan monipuolisuuteen on nähty vähänkään vaivaa eikä se ole tyyliä "kissa123".
