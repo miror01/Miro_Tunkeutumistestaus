@@ -53,6 +53,9 @@ Komennossa on 4 osaa:
 * `/usr/share/wordlists/rockyou.txt` on sanakirja, jota tässä tehtävässä haluamme käyttää.
 
 
+<img width="362" height="194" alt="image" src="https://github.com/user-attachments/assets/442916c2-386c-4e5b-bfad-72dfd16e7e28" />
+
+Komento ei toimi. Koska teen harjoitusta virtualboxissa, toteutuksessa tulee mutkia matkaan siinä miten hashcat haluaisin käyttää näyönohjainta prosessorin sijaan, muttei pysty. Korjasin seuraavaksi hashcatin niin, että se pystyy käyttää prosessoria harjoitukseen. Komentona toimi `sudo apt install pocl-opencl-icd`
 
 
 
