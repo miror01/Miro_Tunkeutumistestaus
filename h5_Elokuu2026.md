@@ -93,3 +93,6 @@ Kokeilin avata sen ja se oli tietenkin salasanasuojattu. Alotin murtamisen tekem
 
 Tiiviste saatiin murrettua onnistuneesti ja salasanaksi paljastui `butterfly`.
 
+<img width="460" height="227" alt="image" src="https://github.com/user-attachments/assets/1cc7910f-ca36-4885-9408-71b8b7ae282a" />
+
+
