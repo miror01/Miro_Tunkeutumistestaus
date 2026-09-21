@@ -34,9 +34,10 @@ Tarkistin tiivisteen cat-komennolla. md5sum lisää tiivisteen perään välily�
 <img width="233" height="122" alt="h5_3" src="https://github.com/user-attachments/assets/1055394b-34ae-4ca1-a170-ca635986f4bb" />
 
 
-Tarkistin `hashid`- komentoa tarkistaakseni todennäköisimmät tiivistetyypit tiivisteelle.
+Tarkistin `hashid`- komentoa tarkistaakseni todennäköisimmät tiivistetyypit tiivisteelle. Tiedän itse, että tyyppinä on MD5, kun juuri itse loin tiivisteen, mutta tällä komennolla siitä otettaisiin tositilanteessa jossa tiiviste ei ole itse tehty, selvää.
 
 
 <img width="288" height="193" alt="h5_4" src="https://github.com/user-attachments/assets/cc0e3873-e998-4e94-89b1-c9467d8fbc6b" />
+
 
 
