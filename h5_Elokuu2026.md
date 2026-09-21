@@ -118,3 +118,8 @@ Purin tiedoston vielä sanasanaa käyttäen ja se onnistui.
 
 <img width="404" height="233" alt="image" src="https://github.com/user-attachments/assets/549f6349-463b-4eb7-af33-5e34bca986c3" />
 
+
+## f) Tiiviste. Tee itse tai etsi verkosta salasanan tiiviste, jonka saat murrettua.
+
+Käytin aiemmin MD5:tä, joten kokeilen nyt SHA-256-tiivistemuotoa. Tein ekana samalla tavalla kun ekassa tehtävässä SHA-256-tiivisteen käyttämällä sanaa joka sisältyy rockyou.txt:ssä. valitsin salasanaksi `mustang`. Samalla tavalla kun aiemmin, käytin nanoa poistamaan välilyönnit ja viivat.
+
