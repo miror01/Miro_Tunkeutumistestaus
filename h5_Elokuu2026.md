@@ -107,5 +107,7 @@ Valitsin formaatiksi 7z. Tein ekana echo-komennolla uuden tiedoston, ja salasana
 
 Loin sille salasanan `sunshine`, joka löytyy rockyou-sanakirjasta.
 
+Poistin alkuperäisen suojaamattoman tiedoston `rm Miro.txt`. Sitten muunsin 7z.tiedoston muotoon jonka JtR ymmärtää. Komentona `./7z2john.pl Miro.7z > Miro.hash`. Tarkistin tiivisteen komennolla `cat Miro.hash`.
+
 
 
