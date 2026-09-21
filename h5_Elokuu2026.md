@@ -95,6 +95,9 @@ Tiiviste saatiin murrettua onnistuneesti ja salasanaksi paljastui `butterfly`.
 
 <img width="460" height="227" alt="image" src="https://github.com/user-attachments/assets/1cc7910f-ca36-4885-9408-71b8b7ae282a" />
 
-Sitten vielä koitin unzip uusiksi ja luin SECRET.md -tiedoston
+Sitten vielä koitin unzip uusiksi ja luin SECRET.md -tiedoston.
+
+<img width="404" height="220" alt="image" src="https://github.com/user-attachments/assets/a1edf8e8-0e6e-4848-85ff-6e42b16ca7ab" />
+
 
 
