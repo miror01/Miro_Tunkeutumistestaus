@@ -55,7 +55,9 @@ Komennossa on 4 osaa:
 
 <img width="362" height="194" alt="image" src="https://github.com/user-attachments/assets/442916c2-386c-4e5b-bfad-72dfd16e7e28" />
 
-Komento ei toimi. Koska teen harjoitusta virtualboxissa, toteutuksessa tulee mutkia matkaan siinä miten hashcat haluaisin käyttää näyönohjainta prosessorin sijaan, muttei pysty. Korjasin seuraavaksi hashcatin niin, että se pystyy käyttää prosessoria harjoitukseen. Komentona toimi `sudo apt install pocl-opencl-icd`
+Komento ei toimi. Koska teen harjoitusta virtualboxissa, toteutuksessa tulee mutkia matkaan siinä miten hashcat haluaisin käyttää näyönohjainta prosessorin sijaan, muttei pysty. Korjasin seuraavaksi hashcatin niin, että se pystyy käyttää prosessoria harjoitukseen. Komentona toimi `sudo apt install pocl-opencl-icd`.
+
+Ajoin komennon `hashcat -m 0 tiiviste.txt /usr/share/wordlists/rockyou.txt` uudestaan, ja tällä kertaa toimi. Salasana "summer" on niin helppo kohde että suorituskyky ei tässä harjoitustehtävässä vaikuta niin paljoa että haittaisi käyttää CPU:ta.
 
 
 
