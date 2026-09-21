@@ -44,6 +44,14 @@ Valmiissa Kalissa on yleensä rockyou.txt valmiina, ja sen voi tarkistaa komenno
 
 <img width="617" height="123" alt="image" src="https://github.com/user-attachments/assets/e3ef50a8-46b8-47af-9bf3-638aa201516a" />
 
+On aika ottaa hashcat käyttöön. Komentona toimii `hashcat -m 0 tiiviste.txt /usr/share/wordlists/rockyou.txt`. 
+
+Komennossa on 4 osaa:
+* `hashcat` kertoo käytettävän ohjelman.
+* `-m 0` kertoo tiivisteen tyypin. Aiemmasta komennosta saatiin selville, että MD5 vastaa numeroa 0.
+* `tiiviste.txt` on meidän tekstitiedosto jossa tiiviste sijaitsee
+* `/usr/share/wordlists/rockyou.txt` on sanakirja, jota tässä tehtävässä haluamme käyttää.
+
 
 
 
