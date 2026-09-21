@@ -116,38 +116,38 @@ Seuraavaksi aloin murtamaan salasanaa. Käytin JtR:ää ja sanalistana rockyou.t
 
 Purin tiedoston vielä sanasanaa käyttäen ja se onnistui. 
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/549f6349-463b-4eb7-af33-5e34bca986c3" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/549f6349-463b-4eb7-af33-5e34bca986c3" />
 
 
 ## f) Tiiviste. Tee itse tai etsi verkosta salasanan tiiviste, jonka saat murrettua.
 
 Käytin aiemmin MD5:tä, joten kokeilen nyt SHA-256-tiivistemuotoa. Tein ekana samalla tavalla kun ekassa tehtävässä SHA-256-tiivisteen käyttämällä sanaa joka sisältyy rockyou.txt:ssä. valitsin salasanaksi `mustang`. Samalla tavalla kun aiemmin, käytin nanoa poistamaan välilyönnit ja viivat.
 
-<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/d206f4de-3fe8-4813-8352-920e0ef3d509" />
+<img width="1000" height="200" alt="image" src="https://github.com/user-attachments/assets/d206f4de-3fe8-4813-8352-920e0ef3d509" />
 
 `hashid`- komennolla taas selville tyyppi, ja SHA256:n hashcat numeroksi näyttäytyy 1400. 
 
 Seuraavaksi laitoin komennon `hashcat -m 1400 sha256.txt /usr/share/wordlists/rockyou.txt`
 
-<img width="532" height="382" alt="image" src="https://github.com/user-attachments/assets/a0e06695-05b8-4d7d-9cce-ab95e99b688c" />
+<img width="1000" height="382" alt="image" src="https://github.com/user-attachments/assets/a0e06695-05b8-4d7d-9cce-ab95e99b688c" />
 
 Odotin että hascat suorittaa, ja tulokseksi tuli taas `Cracked`. Komento `hashcat -m 1400 sha256.txt --show` ja tuloksessa näkyy `mustang`.
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/9203c502-c625-4151-ba75-9361ac179588" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/9203c502-c625-4151-ba75-9361ac179588" />
 
 
 ## g) Demonstroi oman sanakirjan tekemistä Hashcatille tai Johnille.
 
 Aloitin tehtävän luomalla sanakirjan komennolla `nano mironsanakirja.txt`, lisäsin sinne sanoja omille riveille ja tallensin. Nyt sanakirjaa voidaan käyttää samalla tavalla kuin rockyou.txt:tä aiemmissa tehtävissä.
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/6e23b6eb-5441-4893-9808-303717548456" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/6e23b6eb-5441-4893-9808-303717548456" />
 
 
 ## h) Hash rules. Näytä esimerkki HashCatin sääntöjen käytöstä (rules).
 
 Ekana tarkistin hashcatin sääntölistaa. Komentona `ls /usr/share/hashcat/rules/` ekana oli best66.rule. Ajoin sen komennolla `hashcat --stdout mironsanakirja.txt -r /usr/share/hashcat/rules/best66.rule`. Tuloste oli valtava, joten suoritin komennon uudestaan, ja lisäsin perään ` | grep -i kissa`, joka on yksi sanakirjani sana.
 
-<img width="523" height="341" alt="image" src="https://github.com/user-attachments/assets/fdc4cbfa-d2bc-4e19-8a11-e53077b5ffd5" />
+<img width="1000" height="341" alt="image" src="https://github.com/user-attachments/assets/fdc4cbfa-d2bc-4e19-8a11-e53077b5ffd5" />
 
 rule66 näyttäisi ottavan sanani ja kokeilevan sen kanssa yleisimpiä yhdisteitä mitä voi keksiä. 
 
@@ -157,7 +157,7 @@ Laitoin komennoksi `hashcat -m 1400 rule66tiiviste.txt mironsanakirja.txt`. Eli 
 
 Ajoin komennon uudestaan lisäparametrillä `-r /usr/share/hashcat/rules/best66.rule`, ja tilaksi tuli `Cracked`. Eli sanakirjaa käytiin läpi uudella säännöllä, ja se onnistui löytämään oikean salasanan.
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/51bdaae8-aaad-45f9-8a89-f46764a7c102" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/51bdaae8-aaad-45f9-8a89-f46764a7c102" />
 
 
 
