@@ -156,3 +156,5 @@ Kokeilin toimiiko tämä.  Otin yhden rule66-tulosteista, `kissa123`, ja tein si
 Laitoin komennoksi `hashcat -m 1400 rule66tiiviste.txt mironsanakirja.txt`. Eli etsin sanaa kissa123 sanakirjastani jossa sitä ei (enää) ole. Tilaksi tuli exhausted. 
 
 Ajoin komennon uudestaan lisäparametrillä `-r /usr/share/hashcat/rules/best66.rule`, ja tilaksi tuli `Cracked`. Eli sanakirjaa käytiin läpi uudella säännöllä, ja se onnistui löytämään oikean salasanan.
+
+<img width="437" height="335" alt="image" src="https://github.com/user-attachments/assets/51bdaae8-aaad-45f9-8a89-f46764a7c102" />
