@@ -143,4 +143,6 @@ Aloitin tehtävän luomalla sanakirjan komennolla `nano mironsanakirja.txt`, lis
 <img width="179" height="152" alt="image" src="https://github.com/user-attachments/assets/6e23b6eb-5441-4893-9808-303717548456" />
 
 
+## h) Hash rules. Näytä esimerkki HashCatin sääntöjen käytöstä (rules).
 
+Ekana tarkistin hashcatin sääntölistaa. Komentona `ls /usr/share/haascat/rules/` ekana oli best66.rule. Ajoin sen komennolla `hashcat --stdout mironsanakirja.txt -r /usr/share/hashcat/rules/best66.rule`. Tuloste oli valtava, joten suoritin komennon uudestaan, ja lisäsin perään ` | grep -i kissa`, joka on yksi sanakirjani sana.
