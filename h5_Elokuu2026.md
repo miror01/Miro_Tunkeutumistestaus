@@ -128,3 +128,7 @@ Käytin aiemmin MD5:tä, joten kokeilen nyt SHA-256-tiivistemuotoa. Tein ekana s
 `hashid`- komennolla taas selville tyyppi, ja SHA256:n hashcat numeroksi näyttäytyy 1400. 
 
 Seuraavaksi laitoin komennon
+
+
+<img width="532" height="382" alt="image" src="https://github.com/user-attachments/assets/a0e06695-05b8-4d7d-9cce-ab95e99b688c" />
+
