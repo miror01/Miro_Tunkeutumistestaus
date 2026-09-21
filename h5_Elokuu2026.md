@@ -99,5 +99,7 @@ Sitten vielä koitin unzip uusiksi ja luin SECRET.md -tiedoston.
 
 <img width="404" height="220" alt="image" src="https://github.com/user-attachments/assets/a1edf8e8-0e6e-4848-85ff-6e42b16ca7ab" />
 
+## e) Tiedosto. Tee itse tai etsi verkosta jokin salakirjoitettu tiedosto, jonka saat auki. Murra sen salaus.
+
 
 
