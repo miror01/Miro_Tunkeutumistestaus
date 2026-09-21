@@ -114,3 +114,7 @@ Seuraavaksi aloin murtamaan salasanaa. Käytin JtR:ää ja sanalistana rockyou.t
 
 <img width="589" height="182" alt="image" src="https://github.com/user-attachments/assets/b3df477f-aaf7-4d00-b20f-9ed239b8cee5" />
 
+Purin tiedoston vielä sanasanaa käyttäen ja se onnistui. 
+
+<img width="404" height="233" alt="image" src="https://github.com/user-attachments/assets/549f6349-463b-4eb7-af33-5e34bca986c3" />
+
