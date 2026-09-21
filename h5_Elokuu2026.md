@@ -133,3 +133,6 @@ Seuraavaksi laitoin komennon `hashcat -m 1400 sha256.txt /usr/share/wordlists/ro
 
 Odotin että hascat suorittaa, ja tulokseksi tuli taas `Cracked`. Komento `hashcat -m 1400 sha256.txt --show` ja tuloksessa näkyy `mustang`.
 
+<img width="371" height="233" alt="image" src="https://github.com/user-attachments/assets/9203c502-c625-4151-ba75-9361ac179588" />
+
+
