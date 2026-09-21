@@ -80,6 +80,7 @@ Seuraavaksi kloonasin JtR-Jumbo-version Openwallin repositoriosta. Komentona `gi
 
 Suorittamiseen meni pari minuuttia. Seuraavaksi siirryn hakemistoon run komennolla `cd ../run` kirjoitin komennon `./john` joka käynnisti JtR:n.
 
+<img width="467" height="81" alt="image" src="https://github.com/user-attachments/assets/abca5ed6-2aea-4a5d-a353-009fbd2868ca" />
 
 
 
