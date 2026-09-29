@@ -53,7 +53,7 @@ Erittäin paljon tuloksia, suurin osa niistä olemattomia. Suurimmassa osassa tu
 
 Tulokset vähentyi huimasti, 2000 tuloksesta jäljelle jäi 14. Nämä ovat niitä oikeasti olemassa olevia polkuja.
 
-## c2)
+## c2) The interesting non-200
 
 Ohjeissa näkyy, että oletusasetuksilla ffuf löytää vain tiettyjä vastauskoodeja. 2 kiinnostavaa polkua ei palauta 200, ja toinen niistä ei palaudu lainkaan oletusasetuksia käyttävällä ffuf ajolla. Täten käyttöön tulee uusi parametri, `-mc`, ja `-fc`. Käytin komentona `ffuf -w content.txt -u https://ffuf.io.fi/FUZZ -mc all -fc 200` ja sain tällaisen tuloksen:
 
@@ -61,14 +61,14 @@ Ohjeissa näkyy, että oletusasetuksilla ffuf löytää vain tiettyjä vastausko
 
 Eli haetaan kaikki response status-koodit, ja filtteröidään pois ne joiden status on 200. Jäljelle jäi 6.
 
-## c3)
+## c3) Recursion
 
 Yritin jatkaa ohjeiden mukaan. tässä kohdassa tulee 2 uutta parametriä, -recursion, sekä -recursion-depth, joten kokeilin käyttää niitä yhdessä -fw 135 parametrin kanssa. Uusia tuloksia tuli muutama, kuten `db.sql.bak`.
 
 <img width="766" height="727" alt="image" src="https://github.com/user-attachments/assets/822e7610-8cd7-4d1e-ba48-5005dafa9a58" />
 
 
-## c4)
+## c4) Virtual hosts
 
 C4-tehtävässä siirrytään testaamaan fuzzausta URL:in sijasta HTTP-pyynnön headeriin. Poistin aiemmin käytetystä komennosta FUZZ-kohdan, koska emme enää fuzzaa URL:ia. Komentona oli siis nyt `ffuf -w content.txt -u https://ffuf.io.fi/ -H "Host: FUZZ.ffuf.io.fi" -fw 135`. Käytin tässä heti -fw 135- parametriä, sillä halusin filtteröidä edelleen kaikki virheelliset tulokset pois. Huomasin kuitenkin, että tuo 135 sanaa ei enää päde, ja tuloksia tuli silti kaikki 2000.
 
@@ -80,7 +80,7 @@ Kuvasta näkee, että Words osio koostuu nyt laajalti 377 sanasta, joten muutin 
 
 Hämmennyin, koska tehtävässä sanotaan, että pitäisi löytyä 3 eri tulosta. Koitin myös passwords.txt-listaa, ja koitin kysyä tekoälyltä apua, joka oikeastaan vain valitti, että ei saa näyttää tuloksia kyberturvallisuusriskien vuoksi. Lukuisista selvennyksistä huolimatta, että tämä on koulutehtävä ja testaukseen sallittu ympäristö, en silti saanut tekoälyä auttamaan. En tiedä miten tehtävässä kuuluisi enää edetä.
 
-## c9)
+## c9) The login you cannot replay
 
 Valitettavasti tämä oli minulle jo aivan käsittämätöntä, joten tein tehtävän ohjekirjan ja tekoälyn avulla. ffuf.io.fi- sivulta löytyy C9:ään nämä ohjeet: 
 ```bash
