@@ -82,7 +82,7 @@ Hämmennyin, koska tehtävässä sanotaan, että pitäisi löytyä 3 eri tulosta
 
 ## c9) The login you cannot replay
 
-Valitettavasti tämä oli minulle jo aivan käsittämätöntä, joten tein tehtävän ohjekirjan ja tekoälyn avulla. ffuf.io.fi- sivulta löytyy C9:ään nämä ohjeet: 
+Valitettavasti tämä oli minulle jo aivan käsittämätöntä, joten yritin tehtävää ohjekirjan ja tekoälyn avulla. ffuf.io.fi- sivulta löytyy C9:ään nämä ohjeet: 
 ```bash
 cat > login.raw <<'EOF'
 GET /login HTTP/1.1
@@ -115,4 +115,4 @@ Hoikkala 2026. Fuzzing with ffuf: https://terokarvinen.com/tunkeutumistestaus/ho
 
 ffuf. How to Play: https://ffuf.io.fi/play Luettu 29.9.2026
 
-ffuf. Rceursion: https://github.com/ffuf/ffuf/wiki/Recursion Luettu 29.9.2026
+ffuf. Recursion: https://github.com/ffuf/ffuf/wiki/Recursion Luettu 29.9.2026
