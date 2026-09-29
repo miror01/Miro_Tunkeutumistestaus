@@ -37,9 +37,7 @@ Siirsin uuden ffuf version `/usr/local/bin`-hakemistoon komennolla `sudo mv ffuf
 ### Goal: Find the paths that exist but are not linked from anywhere.
 
 Alotin koko tehtävän ffuf.io.fi -nettisivun ohjeiden "Getting Started"- osion mukaan. Ekoina komentoina syötin kaliin 
-`
-curl -O https://ffuf.io.fi/wordlists/content.txt
+`curl -O https://ffuf.io.fi/wordlists/content.txt
 curl -O https://ffuf.io.fi/wordlists/passwords.txt
 
-ffuf -w content.txt -u https://ffuf.io.fi/FUZZ
-`
+ffuf -w content.txt -u https://ffuf.io.fi/FUZZ`
