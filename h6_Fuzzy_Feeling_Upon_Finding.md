@@ -28,3 +28,5 @@ Harjoituksessa tarvittavaan ominaisuuteen tarvitaan ffuf-versiota 2.3.0, tai uud
 
 <img width="627" height="472" alt="image" src="https://github.com/user-attachments/assets/abb425c7-fecb-41be-9ef8-af906e7750f0" />
 
+
+Siirsin uuden ffuf version `/usr/local/bin`-hakemistoon komennolla `sudo mv ffuf /usr/local/bin`. Tarkistin ffuf-version, sekä preflight ominaisuudet ohjeiden mukaan ja kaikki pelaa kuten pitää.
