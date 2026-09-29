@@ -106,3 +106,13 @@ Joten kokeilin niitä.
 Jäin jumiin, enkä saa tehtävää suoritettua. Tekoälystäkään ei ole apua, kun tuloste on joka kerta tämä.
 
 <img width="1053" height="565" alt="image" src="https://github.com/user-attachments/assets/84f62c0e-fe75-4f54-be87-648856203a24" />
+
+## Lähteet)
+
+Tero Karvinen 2026. Tunkeutumistestaus: https://terokarvinen.com/tunkeutumistestaus/#laksyt Luettu: 29.9.2026
+
+Hoikkala 2026. Fuzzing with ffuf: https://terokarvinen.com/tunkeutumistestaus/hoikkala-2026-fuzzing-with-ffuf.pdf Luettu 29.9.2026
+
+ffuf. How to Play: https://ffuf.io.fi/play Luettu 29.9.2026
+
+ffuf. Rceursion: https://github.com/ffuf/ffuf/wiki/Recursion Luettu 29.9.2026
