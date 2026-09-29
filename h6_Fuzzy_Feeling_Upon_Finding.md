@@ -33,5 +33,13 @@ Siirsin uuden ffuf version `/usr/local/bin`-hakemistoon komennolla `sudo mv ffuf
 
 <img width="384" height="336" alt="image" src="https://github.com/user-attachments/assets/31d889bc-fa4a-48f9-bb62-5837c844a87b" />
 
-## c1)
+## c1) Content discovery
+### Goal: Find the paths that exist but are not linked from anywhere.
 
+Alotin koko tehtävän ffuf.io.fi -nettisivun ohjeiden "Getting Started"- osion mukaan. Ekoina komentoina syötin kaliin 
+`
+curl -O https://ffuf.io.fi/wordlists/content.txt
+curl -O https://ffuf.io.fi/wordlists/passwords.txt
+
+ffuf -w content.txt -u https://ffuf.io.fi/FUZZ
+`
