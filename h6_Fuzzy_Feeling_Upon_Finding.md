@@ -30,3 +30,6 @@ Harjoituksessa tarvittavaan ominaisuuteen tarvitaan ffuf-versiota 2.3.0, tai uud
 
 
 Siirsin uuden ffuf version `/usr/local/bin`-hakemistoon komennolla `sudo mv ffuf /usr/local/bin`. Tarkistin ffuf-version, sekä preflight ominaisuudet ohjeiden mukaan ja kaikki pelaa kuten pitää.
+
+<img width="384" height="336" alt="image" src="https://github.com/user-attachments/assets/31d889bc-fa4a-48f9-bb62-5837c844a87b" />
+
