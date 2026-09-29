@@ -25,3 +25,6 @@ Riskit ja mitigointi.
 
 ## b) ffuf
 Harjoituksessa tarvittavaan ominaisuuteen tarvitaan ffuf-versiota 2.3.0, tai uudempaa. Ohjeiden mukaan tarkistin oman versioni komennolla `ffuf -v`. Versioni oli 2.1.0, joten menin ffuf:in github repositorion kautta asentamaan kaliin uusimman version. Sopiva versio kaliini oli `ffuf_2.3.0_linux_amd64.tar.gz`. Purin tiedoston komennolla `tar -xzf ffuf_2.3.0_linux_amd64.tar.gz`.
+
+<img width="627" height="472" alt="image" src="https://github.com/user-attachments/assets/abb425c7-fecb-41be-9ef8-af906e7750f0" />
+
