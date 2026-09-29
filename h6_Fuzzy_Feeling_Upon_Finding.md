@@ -78,7 +78,7 @@ Kuvasta näkee, että Words osio koostuu nyt laajalti 377 sanasta, joten muutin 
 
 <img width="850" height="496" alt="image" src="https://github.com/user-attachments/assets/993ab961-b004-4a84-8be6-1c0111e866f4" />
 
-Hämmennyin, koska tehtävässä sanotaan, että pitäisi löytyä 3 eri tulosta. Koitin myös passwords.txt-listaa, ja koitin kysyä tekoälyltä apua, joka oikeastaan vain valitti, että ei saa näyttää tuloksia kyberturvallisuusriskien vuoksi, lukuisista selvennyksistä huolimatta, että tämä on koulutehtävä ja testaukseen sallittu ympäristö. En tiedä miten tehtävässä kuuluisi enää edetä.
+Hämmennyin, koska tehtävässä sanotaan, että pitäisi löytyä 3 eri tulosta. Koitin myös passwords.txt-listaa, ja koitin kysyä tekoälyltä apua, joka oikeastaan vain valitti, että ei saa näyttää tuloksia kyberturvallisuusriskien vuoksi. Lukuisista selvennyksistä huolimatta, että tämä on koulutehtävä ja testaukseen sallittu ympäristö, en silti saanut tekoälyä auttamaan. En tiedä miten tehtävässä kuuluisi enää edetä.
 
 ## c9)
 
