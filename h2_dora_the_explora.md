@@ -55,7 +55,7 @@ Testataan yhteys internetiin sekä yhteys koneiden välillä. Ensiksi eristin Ka
 
 Seuraavaksi Kalilla, pingasin Googlen DNS-palvelinta sekä Metasploitablea selvittääkseni toimivuuden.
 
-<img width="419" height="291" alt="image" src="https://github.com/user-attachments/assets/50854a99-e376-4333-931e-c09f70fc27d8" />
+<img width="419" height="491" alt="image" src="https://github.com/user-attachments/assets/50854a99-e376-4333-931e-c09f70fc27d8" />
 
 
 Googlen DNS-palvelimeen on 100% packet loss, eli Internet-yhteyttä ei ole, Metasploitablen ip-osoitteeseen packet loss on 0%, eli kaikki paketit menevät läpi, kaikki toimii tarkoitetusti :)
@@ -113,7 +113,7 @@ Vielä kokeilin murtautua Metasploitableen ylemmällä olevia keinoja hyödyntä
 
 Löysin murtautumiskomennoksi komennon **nc**. 
 
-<img width="163" height="63" alt="image" src="https://github.com/user-attachments/assets/c85de827-6469-4720-9fbf-ea250de6ee4e" />
+<img width="363" height="363" alt="image" src="https://github.com/user-attachments/assets/c85de827-6469-4720-9fbf-ea250de6ee4e" />
 
 Hyvin yksinkertaista!
 
@@ -130,7 +130,7 @@ Seuraavaksi aloitetaan ohjelma. Komentona **use exploit/unix/ftp/vsftpd_234_back
 
 Portissa oleva backdoor on nyt käynnistetty. :)
 
-<img width="422" height="87" alt="image" src="https://github.com/user-attachments/assets/aa07077a-a91c-4fff-9b7c-67f706013ab1" />
+<img width="422" height="387" alt="image" src="https://github.com/user-attachments/assets/aa07077a-a91c-4fff-9b7c-67f706013ab1" />
 
 
 ## Lähteet
