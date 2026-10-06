@@ -1,7 +1,7 @@
 ## a) Vapaaehtoiset tehtävät
 
 ### h2
-### Vapaaehtoiset tehtävät f & g: https://github.com/miror01/Miro_Tunkeutumistestaus/blob/main/h2_dora_the_explora.md
+Vapaaehtoiset tehtävät f & g: https://github.com/miror01/Miro_Tunkeutumistestaus/blob/main/h2_dora_the_explora.md
 
 
 ## b) Ristiinarvioinnin jälkeen olennaisesti parannetut tehtävät
